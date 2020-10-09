@@ -1,0 +1,30 @@
+{
+  "cmsProGatewayServiceApp": {
+    "cmsProMicroServiceProjectStatuses": {
+      "home": {
+        "title": "ProjectStatuses",
+        "createLabel": "नया Project Statuses बनाएँ",
+        "createOrEditLabel": "Project Statuses बनाएँ या संपादित करें",
+        "search": "Project Statuses खोजें",
+        "notFound": "No Project Statuses found"
+      },
+      "delete": {
+        "question": "Project Statuses [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Project Statuses"
+      },
+      "status_id": "Status Id",
+      "status_code": "Status Code",
+      "description": "Description",
+      "is_active": "Is Active"
+    }
+  },
+  "cmsProMicroServiceApp": {
+    "cmsProMicroServiceProjectStatuses": {
+      "created": "एक नया Project Statuses [identifier: {{ param }}] तैयार है",
+      "updated": "एक Project Statuses [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Project Statuses [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

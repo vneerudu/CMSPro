@@ -1,0 +1,41 @@
+application {
+  config {
+    applicationType gateway
+    authenticationType jwt
+    baseName CMSProGatewayService
+    blueprints [generator-jhipster-vuejs]
+    buildTool maven
+    cacheProvider hazelcast
+    clientFramework vue
+    clientPackageManager npm
+    clientTheme cyborg
+    clientThemeVariant primary
+    creationTimestamp 1601901594940
+    databaseType sql
+    devDatabaseType h2Disk
+    dtoSuffix DTO
+    embeddableLaunchScript false
+    enableHibernateCache true
+    enableSwaggerCodegen true
+    enableTranslation true
+    jhiPrefix jhi
+    jhipsterVersion "6.10.3"
+    jwtSecretKey "ZTU3Yjk5ZDA3ZGFiYTEyYzJjNGJjZDk2MTVjMDM2YzE0ZTk1YWZmYjk5MzAyZTE1ODlkZWJmMTZlMWIzMDI4NmJiZmVkOWZiMGZkYzc4OGQyODUyM2UzYzU0OTJlODVlMjYzNjQzNDkxNTQzMmQzYzFjNzI4ZmI1NThhNWE3YWI="
+    languages [en, hi, es, te]
+    messageBroker kafka
+    nativeLanguage en
+    otherModules [[object Object], [object Object]]
+    packageName com.cmspro.gateway
+    prodDatabaseType postgresql
+    searchEngine elasticsearch
+    serverPort 8080
+    serviceDiscoveryType eureka
+    skipClient false
+    skipServer false
+    skipUserManagement false
+    testFrameworks [gatling]
+    useSass true
+    websocket false
+  }
+}
+

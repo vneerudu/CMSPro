@@ -1,0 +1,67 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.cmspro.microservice",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.3",
+    "applicationType": "microservice",
+    "baseName": "CMSProMicroService",
+    "packageName": "com.cmspro.microservice",
+    "packageFolder": "com/cmspro/microservice",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "YTUyYzVkZWMwNGIzNDFjNzBjMzAyZjU0NTM0MTgwODc0NjNiNzAzYjVmMjQyYWU3ZjJlMTkxMDk3YWQ2NjA3OTA5ZDY4MjZlZjcxZDhkNjQ5NDc3ZGUxZWE5YjdiNzcwMTRiNDk4MGRlODY3NDE0NDljODExNjk0NDMxZjFhN2I=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1601852174542,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-file-handling",
+        "version": "1.1.1"
+      },
+      {
+        "name": "generator-jhipster-kafka",
+        "version": "0.3.0"
+      },
+      {
+        "name": "generator-jhipster-imageblobcache",
+        "version": "1.0.2"
+      },
+      {
+        "name": "generator-jhipster-imageblobindexation",
+        "version": "2.0.3"
+      },
+      {
+        "name": "generator-jhipster-ansible",
+        "version": "0.3.0"
+      },
+      {
+        "name": "generator-jhipster-fullcalendar",
+        "version": "0.0.4"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en", "hi", "es", "te"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true,
+    "lastLiquibaseTimestamp": 1602254933000
+  }
+}

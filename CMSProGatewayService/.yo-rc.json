@@ -1,0 +1,58 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.cmspro.gateway",
+      "nativeLanguage": "en",
+      "microservicePath": "../CMSProMicroService"
+    },
+    "jhipsterVersion": "6.10.3",
+    "applicationType": "gateway",
+    "baseName": "CMSProGatewayService",
+    "packageName": "com.cmspro.gateway",
+    "packageFolder": "com/cmspro/gateway",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "ZTU3Yjk5ZDA3ZGFiYTEyYzJjNGJjZDk2MTVjMDM2YzE0ZTk1YWZmYjk5MzAyZTE1ODlkZWJmMTZlMWIzMDI4NmJiZmVkOWZiMGZkYzc4OGQyODUyM2UzYzU0OTJlODVlMjYzNjQzNDkxNTQzMmQzYzFjNzI4ZmI1NThhNWE3YWI=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "vue",
+    "clientTheme": "cyborg",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1601901594940,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.9.2"
+      },
+      {
+        "name": "generator-jhipster-fullcalendar",
+        "version": "0.0.4"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "hi", "es", "te"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.9.2"
+      }
+    ]
+  }
+}

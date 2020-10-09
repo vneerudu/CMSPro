@@ -1,0 +1,30 @@
+{
+  "cmsProGatewayServiceApp": {
+    "cmsProMicroServiceProjectStatuses": {
+      "home": {
+        "title": "Project Statuses",
+        "createLabel": "Create a new Project Statuses",
+        "createOrEditLabel": "Create or edit a Project Statuses",
+        "search": "Search for Project Statuses",
+        "notFound": "No Project Statuses found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Statuses {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Statuses"
+      },
+      "status_id": "Status Id",
+      "status_code": "Status Code",
+      "description": "Description",
+      "is_active": "Is Active"
+    }
+  },
+  "cmsProMicroServiceApp": {
+    "cmsProMicroServiceProjectStatuses": {
+      "created": "A new Project Statuses is created with identifier {{ param }}",
+      "updated": "A Project Statuses is updated with identifier {{ param }}",
+      "deleted": "A Project Statuses is deleted with identifier {{ param }}"
+    }
+  }
+}
