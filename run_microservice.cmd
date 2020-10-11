@@ -1,0 +1,1 @@
+cd CMSProMicroService & mvnw.cmd -Dmaven.repo.local="c:\test\repo"

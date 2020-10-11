@@ -1,0 +1,1 @@
+cd jhipster-registry & mvnw.cmd -Dmaven.repo.local="c:\test\repo"
