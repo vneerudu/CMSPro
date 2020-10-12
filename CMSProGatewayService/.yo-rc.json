@@ -3,7 +3,7 @@
     "promptValues": {
       "packageName": "com.cmspro.gateway",
       "nativeLanguage": "en",
-      "microservicePath": "../CMSProMicroService"
+      "microservicePath": "../../CMSProMicroService"
     },
     "jhipsterVersion": "6.10.3",
     "applicationType": "gateway",

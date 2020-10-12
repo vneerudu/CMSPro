@@ -1,0 +1,33 @@
+{
+  "cmsProGatewayServiceApp": {
+    "cmsProMicroServiceProjects": {
+      "home": {
+        "title": "Projects",
+        "createLabel": "Crear nuevo Projects",
+        "createOrEditLabel": "Crear o editar Projects",
+        "search": "Buscar Projects",
+        "notFound": "Ningún Projects encontrado"
+      },
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Projects {{ id }}?"
+      },
+      "detail": {
+        "title": "Projects"
+      },
+      "projectID": "Project ID",
+      "name": "Name",
+      "department": "Department",
+      "organization": "Organization",
+      "startDate": "Start Date",
+      "finishDate": "Finish Date",
+      "projectStatusRel": "Project Status Rel"
+    }
+  },
+  "cmsProMicroServiceApp": {
+    "cmsProMicroServiceProjects": {
+      "created": "Un nuevo Projects ha sido creado con el identificador {{ param }}",
+      "updated": "Un Projects ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Projects ha sido eliminado con el identificador {{ param }}"
+    }
+  }
+}

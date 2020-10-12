@@ -8,6 +8,8 @@
       "entities": {
         "main": "ఎంటిటీలు",
         "cmsProMicroServiceProjectStatuses": "Project Statuses",
+        "cmsProMicroServiceProjects": "Projects",
+        "cmsProMicroServiceProjectStatus": "Project Status",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

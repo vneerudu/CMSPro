@@ -33,6 +33,8 @@ import GatewayService from '@/admin/gateway/gateway.service';
 
 import ProjectService from '@/entities/CMSProMicroService/project/project.service';
 import ProjectStatusesService from '@/entities/CMSProMicroService/project-statuses/project-statuses.service';
+import ProjectsService from '@/entities/CMSProMicroService/projects/projects.service';
+import ProjectStatusService from '@/entities/CMSProMicroService/project-status/project-status.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
@@ -99,6 +101,8 @@ new Vue({
     translationService: () => translationService,
     projectService: () => new ProjectService(),
     projectStatusesService: () => new ProjectStatusesService(),
+    projectsService: () => new ProjectsService(),
+    projectStatusService: () => new ProjectStatusService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,
   },

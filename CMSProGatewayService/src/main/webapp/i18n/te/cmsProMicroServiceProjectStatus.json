@@ -1,0 +1,29 @@
+{
+  "cmsProGatewayServiceApp": {
+    "cmsProMicroServiceProjectStatus": {
+      "home": {
+        "title": "Project Statuses",
+        "createLabel": "కొత్త Project Status  సృష్టించండి",
+        "createOrEditLabel": "Project Status సృష్టించండి లేదా సవరించండి",
+        "search": "Project Status కొరకు శోధించండి",
+        "notFound": "No Project Statuses found"
+      },
+      "delete": {
+        "question": "మీరు Project Status {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Project Status"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active"
+    }
+  },
+  "cmsProMicroServiceApp": {
+    "cmsProMicroServiceProjectStatus": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Project Status సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Project Status సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Project Status తొలగించబడినది"
+    }
+  }
+}

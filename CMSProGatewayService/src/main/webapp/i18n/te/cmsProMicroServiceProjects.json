@@ -1,0 +1,33 @@
+{
+  "cmsProGatewayServiceApp": {
+    "cmsProMicroServiceProjects": {
+      "home": {
+        "title": "Projects",
+        "createLabel": "కొత్త Projects  సృష్టించండి",
+        "createOrEditLabel": "Projects సృష్టించండి లేదా సవరించండి",
+        "search": "Projects కొరకు శోధించండి",
+        "notFound": "No Projects found"
+      },
+      "delete": {
+        "question": "మీరు Projects {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Projects"
+      },
+      "projectID": "Project ID",
+      "name": "Name",
+      "department": "Department",
+      "organization": "Organization",
+      "startDate": "Start Date",
+      "finishDate": "Finish Date",
+      "projectStatusRel": "Project Status Rel"
+    }
+  },
+  "cmsProMicroServiceApp": {
+    "cmsProMicroServiceProjects": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Projects సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Projects సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Projects తొలగించబడినది"
+    }
+  }
+}

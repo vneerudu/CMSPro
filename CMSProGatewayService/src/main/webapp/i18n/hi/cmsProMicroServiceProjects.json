@@ -1,0 +1,33 @@
+{
+  "cmsProGatewayServiceApp": {
+    "cmsProMicroServiceProjects": {
+      "home": {
+        "title": "Projects",
+        "createLabel": "नया Projects बनाएँ",
+        "createOrEditLabel": "Projects बनाएँ या संपादित करें",
+        "search": "Projects खोजें",
+        "notFound": "No Projects found"
+      },
+      "delete": {
+        "question": "Projects [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Projects"
+      },
+      "projectID": "Project ID",
+      "name": "Name",
+      "department": "Department",
+      "organization": "Organization",
+      "startDate": "Start Date",
+      "finishDate": "Finish Date",
+      "projectStatusRel": "Project Status Rel"
+    }
+  },
+  "cmsProMicroServiceApp": {
+    "cmsProMicroServiceProjects": {
+      "created": "एक नया Projects [identifier: {{ param }}] तैयार है",
+      "updated": "एक Projects [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Projects [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}
