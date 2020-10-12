@@ -1,0 +1,31 @@
+{
+  "name": "cms-pro-micro-service",
+  "version": "0.0.0",
+  "description": "Description for CMSProMicroService",
+  "private": true,
+  "license": "UNLICENSED",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "generator-jhipster-vuejs2": "1.1.12",
+    "generator-jhipster-docker": "2.5.0",
+    "generator-jhipster-swagger-cli": "3.0.1",
+    "generator-jhipster-primeng-charts": "1.2.0",
+    "generator-jhipster-testcontainers": "1.1.0",
+    "generator-jhipster-stripe-payment": "1.0.9",
+    "generator-jhipster-uaa-security-authority": "1.0.1",
+    "generator-jhipster-administration-database": "1.0.4",
+    "generator-jhipster-database-backup": "1.0.7",
+    "generator-jhipster-kafka": "0.3.0",
+    "generator-jhipster-feign-client": "1.0.6",
+    "generator-jhipster-kutilang": "0.0.9",
+    "generator-jhipster-social-login-api": "0.0.1",
+    "generator-jhipster-blog": "0.0.2",
+    "generator-jhipster-file2url": "0.0.0",
+    "generator-jhipster": "6.1.2"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}

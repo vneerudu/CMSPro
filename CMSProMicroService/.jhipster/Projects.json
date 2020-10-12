@@ -1,0 +1,59 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "CMSProMicroService",
+    "relationships": [
+        {
+            "relationshipName": "projectStatusRel",
+            "otherEntityName": "projectStatus",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "description",
+            "otherEntityRelationshipName": "projects"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "projectID",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required",
+                "unique"
+            ]
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "unique"
+            ]
+        },
+        {
+            "fieldName": "department",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "organization",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "startDate",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "finishDate",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20201012024751",
+    "dto": "mapstruct",
+    "searchEngine": "elasticsearch",
+    "service": "serviceClass",
+    "entityTableName": "projects",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination",
+    "microserviceName": "CMSProMicroService"
+}

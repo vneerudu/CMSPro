@@ -1,0 +1,119 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.cmspro.basemicroservice",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "microservice",
+    "baseName": "CMSProMicroService",
+    "packageName": "com.cmspro.basemicroservice",
+    "packageFolder": "com/cmspro/basemicroservice",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "OWIwODExNmVhMGEzMGNjODYxZjU1ZTAwYzBjYjYyNTExMTAwNjRhZjkwZGZkZTNlNjFkNDMyMmI0ODc1MTdlMGU3ZDA4MDM4OTY1NWNjMmVjZGE5OGRmMmVjNTg3NjI3Y2Y0ODdmYjJiYjk3ZTk4MTRkNmU0N2Q5MDU2MTBjMDk=",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs2",
+        "version": "1.1.12"
+      },
+      {
+        "name": "generator-jhipster-docker",
+        "version": "2.5.0"
+      },
+      {
+        "name": "generator-jhipster-swagger-cli",
+        "version": "3.0.1"
+      },
+      {
+        "name": "generator-jhipster-primeng-charts",
+        "version": "1.2.0"
+      },
+      {
+        "name": "generator-jhipster-testcontainers",
+        "version": "1.1.0"
+      },
+      {
+        "name": "generator-jhipster-stripe-payment",
+        "version": "1.0.9"
+      },
+      {
+        "name": "generator-jhipster-uaa-security-authority",
+        "version": "1.0.1"
+      },
+      {
+        "name": "generator-jhipster-administration-database",
+        "version": "1.0.4"
+      },
+      {
+        "name": "generator-jhipster-database-backup",
+        "version": "1.0.7"
+      },
+      {
+        "name": "generator-jhipster-kafka",
+        "version": "0.3.0"
+      },
+      {
+        "name": "generator-jhipster-feign-client",
+        "version": "1.0.6"
+      },
+      {
+        "name": "generator-jhipster-kutilang",
+        "version": "0.0.9"
+      },
+      {
+        "name": "generator-jhipster-social-login-api",
+        "version": "0.0.1"
+      },
+      {
+        "name": "generator-jhipster-blog",
+        "version": "0.0.2"
+      },
+      {
+        "name": "generator-jhipster-file2url",
+        "version": "0.0.0"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "zh-cn",
+      "fr",
+      "de",
+      "el",
+      "hi",
+      "it",
+      "ja",
+      "ko",
+      "mr",
+      "pt-pt",
+      "ru",
+      "es",
+      "sv",
+      "ta",
+      "te",
+      "vi"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
