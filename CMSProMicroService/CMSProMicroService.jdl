@@ -1,0 +1,111 @@
+// JDL definition for application 'CMSProMicroService' generated with command 'jhipster export-jdl'
+
+entity ProjectStatuses
+entity Projects {
+  projectID Long required unique,
+  name String required unique,
+  department String,
+  organization String,
+  startDate LocalDate required,
+  finishDate LocalDate
+}
+entity ProjectStatus {
+  code String required unique,
+  description String required,
+  isActive Boolean required
+}
+entity Accounts {
+	id Long required unique,
+    name String required unique,
+
+}
+entity Plans {
+	id Long required unique,
+    name String required unique,
+}
+entity PlanDetails {
+	id Long required unique,
+    name String required unique,
+}
+entity UserGroups {
+  id Long required unique,
+  code String required unique,
+  description String required
+}
+entity Users
+{
+	id Long required unique,
+    name String required unique,
+    trackLocation Boolean required
+}
+entity UserRoles
+{
+	id Long required unique,
+    name String required unique,
+}
+entity UserPermissions
+{
+	id Long required unique,
+    name String required unique,
+}
+entity MenuItems
+{
+	id Long required unique,
+    label String required
+}
+entity Tickets
+{
+	id Long required unique,
+    name String required unique,
+}
+entity Documents
+{
+	id Long required unique,
+    name String required unique,
+    content AnyBlob required
+}
+entity ProjectDocuments
+{
+	id Long required unique,
+    name String required unique
+}
+entity TicketDocuments
+{
+	id Long required unique,
+    name String required unique
+}
+entity SubContractors
+{
+	id Long required unique,
+    name String required unique
+}
+relationship OneToMany
+{
+ Users{usergroup(id)} to UserGroups{user(id)}
+ Plans{plandetail(id)} to PlanDetails{plans(id)}
+ UserGroups{role(id)} to UserRoles{usergroups(id)} 
+ UserRoles{userPermission(id)} to UserPermissions{userRole(id)}
+ Accounts{projects(id)} to Projects{account(id)}
+ Projects{tickets(id)} to Tickets{project(id)}
+ Projects{documents(id)} to ProjectDocuments{project(id)}
+ Tickets{documents(id)} to ProjectDocuments{project(id)}
+ Accounts{subContractors(id)} to SubContractors{account(id)}
+ UserRoles{menuItems(id)} to MenuItems{userRoles(id)}
+}
+
+relationship OneToOne {
+	Accounts to Plans
+    ProjectDocuments to Documents
+    TicketDocuments to Documents
+}
+relationship ManyToOne {
+  Projects{projectStatusRel(description)} to ProjectStatus
+}
+
+search ProjectStatuses, Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with elasticsearch
+microservice ProjectStatuses, Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with CMSProMicroService
+clientRootFolder ProjectStatuses, Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with CMSProMicroService
+dto Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractorss with mapstruct
+paginate Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with pagination
+service Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with serviceClass
+filter Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors
