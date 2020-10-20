@@ -1,19 +1,5 @@
 // JDL definition for application 'CMSProMicroService' generated with command 'jhipster export-jdl'
 
-entity ProjectStatuses
-entity Projects {
-  projectID Long required unique,
-  name String required unique,
-  department String,
-  organization String,
-  startDate LocalDate required,
-  finishDate LocalDate
-}
-entity ProjectStatus {
-  code String required unique,
-  description String required,
-  isActive Boolean required
-}
 entity Accounts {
 	id Long required unique,
     name String required unique,
@@ -28,9 +14,9 @@ entity PlanDetails {
     name String required unique,
 }
 entity UserGroups {
-  id Long required unique,
-  code String required unique,
-  description String required
+    id Long required unique,
+    code String required unique,
+    description String required
 }
 entity Users
 {
@@ -53,10 +39,69 @@ entity MenuItems
 	id Long required unique,
     label String required
 }
+entity ProjectType 
+{
+    //Work spaces
+	id Long required unique,
+    label String required
+}
+entity Projects {
+    projectID Long required unique,
+    name String required unique,
+    department String,
+    organization String,
+    startDate LocalDate required,
+    finishDate LocalDate
+}
+entity ProjectStatus {
+    code String required unique,
+    description String required,
+    isActive Boolean required
+}
+entity ProjectUsers
+{
+	id Long required unique,
+}
+
+entity TicketType
+{
+	id Long required unique,
+    name String required unique,
+}
+entity TicketCategory
+{
+	id Long required unique,
+    name String required unique,
+}
 entity Tickets
 {
 	id Long required unique,
     name String required unique,
+}
+entity TicketCommentLog
+{
+	id Long required unique,
+    name String required unique,
+}
+entity TaskType
+{
+	id Long required unique,
+    name String required unique,
+}
+entity TaskCategory
+{
+	id Long required unique,
+    name String required unique,
+}
+entity Tasks
+{
+	id Long required unique,
+    name String required unique
+}
+entity TaskCommentsLog
+{
+	id Long required unique,
+    name String required unique
 }
 entity Documents
 {
@@ -69,42 +114,100 @@ entity ProjectDocuments
 	id Long required unique,
     name String required unique
 }
+entity Floors{
+	id Long required unique,
+    name String required unique
+}
 entity TicketDocuments
 {
 	id Long required unique,
     name String required unique
 }
-entity SubContractors
+entity Forms
 {
 	id Long required unique,
     name String required unique
 }
+entity CheckListType
+{
+	id Long required unique,
+    name String required unique
+}
+entity CheckLists
+{
+	id Long required unique,
+    name String required unique
+}
+entity CheckListQuestions
+{
+	id Long required unique,
+    name String required unique
+}
+entity ChargeCodeType
+{
+	id Long required unique,
+    name String required unique
+}
+entity ChargeCodes
+{
+	id Long required unique,
+    name String required unique
+}
+entity TimeCardEntry
+{
+	id Long required unique,
+    name String required unique
+    date Date required unique
+    hours Long required
+}
+
+
 relationship OneToMany
 {
- Users{usergroup(id)} to UserGroups{user(id)}
- Plans{plandetail(id)} to PlanDetails{plans(id)}
- UserGroups{role(id)} to UserRoles{usergroups(id)} 
- UserRoles{userPermission(id)} to UserPermissions{userRole(id)}
- Accounts{projects(id)} to Projects{account(id)}
- Projects{tickets(id)} to Tickets{project(id)}
- Projects{documents(id)} to ProjectDocuments{project(id)}
- Tickets{documents(id)} to ProjectDocuments{project(id)}
- Accounts{subContractors(id)} to SubContractors{account(id)}
- UserRoles{menuItems(id)} to MenuItems{userRoles(id)}
+     Users{usergroup(id)} to UserGroups{user(id)}
+     Plans{plandetail(id)} to PlanDetails{plans(id)}
+     UserGroups{role(id)} to UserRoles{usergroups(id)} 
+     UserRoles{userPermission(id)} to UserPermissions{userRole(id)}
+     Accounts{projects(id)} to Projects{account(id)}
+     Projects{projectUser(id)} to ProjectUsers{project(id)}
+     Projects{tickets(id)} to Tickets{project(id)}
+     Projects{documents(id)} to ProjectDocuments{project(id)}
+     Tickets{documents(id)} to TicketDocuments{ticket(id)}
+     Projects{floors(id)} to Floors{project(id)}
+     UserRoles{menuItems(id)} to MenuItems{userRoles(id)}
+     Projects{forms(id)} to Forms{project(id)}
+     Projects{checkLists(id)} to CheckLists{project(id)}
+     Projects{tasks(id)} to Tasks{project(id)}
+     Tasks{user(id)} to Users{task(id)}
+     Tickets{user(id)} to Users{ticket(id)}
+     Tasks{taskCommentsLog(id)} to TaskCommentsLog{task(id)}
+     Tickets{ticketCommentLog(id)} to TicketCommentLog{ticket(id)}
+     CheckLists{checkListQuestions(id)} to CheckListQuestions{checkList(id)}
+     
 }
 
 relationship OneToOne {
 	Accounts to Plans
+    Users to ProjectUsers
     ProjectDocuments to Documents
     TicketDocuments to Documents
+    Floors to Documents
+    Tickets to TicketCategory
+    Tickets to TicketType
+    Tasks to TaskCategory
+    Tasks to TaskType
+    CheckLists to CheckListType
+    ChargeCodes to ChargeCodeType
+    TimeCardEntry to ChargeCodes
+    TimeCardEntry to Tickets
 }
 relationship ManyToOne {
-  Projects{projectStatusRel(description)} to ProjectStatus
+  	Projects{projectStatusRel(description)} to ProjectStatus
 }
 
-search ProjectStatuses, Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with elasticsearch
-microservice ProjectStatuses, Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with CMSProMicroService
-clientRootFolder ProjectStatuses, Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with CMSProMicroService
+search  Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with elasticsearch
+microservice  Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with CMSProMicroService
+clientRootFolder Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with CMSProMicroService
 dto Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractorss with mapstruct
 paginate Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with pagination
 service Projects, ProjectStatus, Accounts, Plans, PlanDetails, UserGroups, Users, UserRoles, UserPermissions, Tickets, Tickets, ProjectDocuments, ProjectDocuments, SubContractors with serviceClass
