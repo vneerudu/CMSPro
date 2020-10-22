@@ -160,7 +160,13 @@ entity TimeCardEntry
     date Date required unique
     hours Long required
 }
+entity Notifications
+{
+}
+entity DataExportTemplates
+{
 
+}
 
 relationship OneToMany
 {

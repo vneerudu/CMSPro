@@ -1,0 +1,25 @@
+1. User management
+	- groups
+	- roles
+	- permissions
+	- 	
+2. Plans 
+3. Projects
+4. Documents, pictures and videos management
+	- Sheet compare
+5. Third party management
+6. Tasks 
+7. Punch list
+	- Image markup
+	- Custome forms
+8. Report templates 
+9. Reports and Charts
+10. Alerts 
+11. Notifications
+12. Chat
+13. Workflows
+14. Advanced RFIs
+15. Project Hub
+16. Subscription
+~~~~~~~~~~~~~~~~~
+BMI
