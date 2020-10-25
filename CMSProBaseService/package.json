@@ -1,0 +1,22 @@
+{
+  "name": "cms-pro-base-service",
+  "version": "0.0.0",
+  "description": "Description for CMSProBaseService",
+  "private": true,
+  "license": "UNLICENSED",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "generator-jhipster-vuejs2": "1.1.12",
+    "generator-jhipster-docker": "2.5.0",
+    "generator-jhipster-swagger-cli": "3.0.1",
+    "generator-jhipster-administration-database": "1.0.4",
+    "generator-jhipster-kafka": "0.3.0",
+    "generator-jhipster-vuejsx": "0.0.1",
+    "generator-jhipster": "6.1.2"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.cmspro.basemicroservice"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "microservice",
+    "baseName": "CMSProBaseService",
+    "packageName": "com.cmspro.basemicroservice",
+    "packageFolder": "com/cmspro/basemicroservice",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "YjhmODU5ZjkxYjhmYjlmMjZkZGIxMmY2NTgzMmNhYjEwZjlkYTdlNjBlNDA5YjczMjdlNjc3ZDE2MDRmOThiMTMyYzMwZTVjY2VlMmU2ZmUzYmRmODk5NTY5YWFmNjc5M2UwNDU4YzY4ODQ0MzVlOWMyNDNkOTVjZGM1NjdmMzI=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs2",
+        "version": "1.1.12"
+      },
+      {
+        "name": "generator-jhipster-docker",
+        "version": "2.5.0"
+      },
+      {
+        "name": "generator-jhipster-swagger-cli",
+        "version": "3.0.1"
+      },
+      {
+        "name": "generator-jhipster-administration-database",
+        "version": "1.0.4"
+      },
+      {
+        "name": "generator-jhipster-kafka",
+        "version": "0.3.0"
+      },
+      {
+        "name": "generator-jhipster-vuejsx",
+        "version": "0.0.1"
+      }
+    ],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
