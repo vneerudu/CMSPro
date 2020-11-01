@@ -1,0 +1,29 @@
+// JDL definition for application 'CMSProBaseService' generated with command 'jhipster export-jdl'
+
+entity Projects {
+  name String,
+  description String
+}
+entity Projecttypes {
+  name String
+}
+entity Projectusers {
+  name String
+}
+entity Users {
+  name String
+}
+relationship OneToOne {
+  Projects{projecttypesrel(name)} to Projecttypes
+}
+relationship ManyToOne {
+  Projectusers{projectrel1(name)} to Projects,
+  Projectusers{usersrel1(name)} to Users
+}
+
+dto Projects, Projecttypes, Projectusers, Users with mapstruct
+paginate Projects, Projecttypes, Projectusers, Users with pagination
+service Projects, Projecttypes, Projectusers, Users with serviceClass
+search Projects, Projecttypes, Projectusers, Users with elasticsearch
+microservice Projects, Projecttypes, Projectusers, Users with CMSProBaseService
+clientRootFolder Projects, Projecttypes, Projectusers, Users with CMSProBaseService
