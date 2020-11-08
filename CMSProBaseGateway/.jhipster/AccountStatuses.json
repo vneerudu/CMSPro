@@ -1,0 +1,31 @@
+{
+  "name": "AccountStatuses",
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201108045150",
+  "entityTableName": "account_statuses",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "CMSProBaseService",
+  "applications": ["CMSProBaseGateway", "CMSProBaseService"],
+  "microserviceName": "CMSProBaseService",
+  "searchEngine": "elasticsearch"
+}

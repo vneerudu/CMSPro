@@ -1,0 +1,41 @@
+{
+  "name": "MenuItems",
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "userRoles",
+      "otherEntityRelationshipName": "menuItems",
+      "relationshipName": "userRoles",
+      "otherEntityField": "description"
+    }
+  ],
+  "changelogDate": "20201108050150",
+  "entityTableName": "menu_items",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "CMSProBaseService",
+  "applications": ["CMSProBaseGateway", "CMSProBaseService"],
+  "microserviceName": "CMSProBaseService",
+  "searchEngine": "elasticsearch"
+}

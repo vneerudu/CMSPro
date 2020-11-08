@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiComments": {
+      "home": {
+        "title": "RFIComments",
+        "createLabel": "Genera un nuovo RFI Comments",
+        "createOrEditLabel": "Genera o modifica un RFI Comments",
+        "search": "Cerca RFI Comments",
+        "notFound": "No RFI Comments found"
+      },
+      "delete": {
+        "question": "Sei sicuro di volere eliminare RFI Comments {{ id }}?"
+      },
+      "detail": {
+        "title": "RFI Comments"
+      },
+      "createdBy": "Created By",
+      "comment": "Comment",
+      "creationDate": "Creation Date",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiComments": {
+      "created": "&Egrave; stato generato un nuovo RFI Comments con identificatore { param }}",
+      "updated": "&Egrave; stato aggiornato RFI Comments identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato RFI Comments con identificatore {{ param }}"
+    }
+  }
+}

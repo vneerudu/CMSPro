@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "home": {
+        "title": "Sheet Histories",
+        "createLabel": "Δημιουργήστε ένα νέο Sheet History",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Sheet History",
+        "search": "Αναζήτηση για Sheet History",
+        "notFound": "No Sheet Histories found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Sheet History {{ id }};"
+      },
+      "detail": {
+        "title": "Sheet History"
+      },
+      "number": "Number",
+      "version": "Version",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "created": "Ένα νέο Sheet History έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Sheet History έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Sheet History έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

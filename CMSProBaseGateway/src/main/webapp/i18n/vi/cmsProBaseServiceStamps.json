@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceStamps": {
+      "home": {
+        "title": "Stamps",
+        "createLabel": "Thêm mới một Stamps",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Stamps",
+        "search": "Tìm Stamps",
+        "notFound": "No Stamps found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Stamps {{ id }}?"
+      },
+      "detail": {
+        "title": "Stamps"
+      },
+      "stamp": "Stamp",
+      "title": "Title",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceStamps": {
+      "created": "Một Stamps mới được tạo với định danh {{ param }}",
+      "updated": "Một Stamps cập nhật với định danh {{ param }}",
+      "deleted": "Một Stamps đã xóa với định danh {{ param }}"
+    }
+  }
+}

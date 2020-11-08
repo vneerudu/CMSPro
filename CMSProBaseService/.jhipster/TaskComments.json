@@ -1,0 +1,42 @@
+{
+  "name": "TaskComments",
+  "fields": [
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "tasks",
+      "otherEntityRelationshipName": "taskComments",
+      "relationshipName": "task",
+      "otherEntityField": "title"
+    }
+  ],
+  "changelogDate": "20201108052150",
+  "entityTableName": "task_comments",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "CMSProBaseService",
+  "applications": ["CMSProBaseGateway", "CMSProBaseService"],
+  "microserviceName": "CMSProBaseService",
+  "searchEngine": "elasticsearch"
+}

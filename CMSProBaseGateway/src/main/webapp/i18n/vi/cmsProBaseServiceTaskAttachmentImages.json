@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachmentImages": {
+      "home": {
+        "title": "Task Attachment Images",
+        "createLabel": "Thêm mới một Task Attachment Images",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Task Attachment Images",
+        "search": "Tìm Task Attachment Images",
+        "notFound": "No Task Attachment Images found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Task Attachment Images {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Attachment Images"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachmentImages": {
+      "created": "Một Task Attachment Images mới được tạo với định danh {{ param }}",
+      "updated": "Một Task Attachment Images cập nhật với định danh {{ param }}",
+      "deleted": "Một Task Attachment Images đã xóa với định danh {{ param }}"
+    }
+  }
+}

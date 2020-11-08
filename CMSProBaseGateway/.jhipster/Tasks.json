@@ -1,0 +1,156 @@
+{
+  "name": "Tasks",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dueDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "costImpact",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "costImpactComment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "scheduleImpact",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "scheduleImpactComment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "taskTypes",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "type",
+      "otherEntityField": "description",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "taskStatuses",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "status",
+      "otherEntityField": "description",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "taskLocations",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "location",
+      "otherEntityField": "description",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "stamps",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "stamp",
+      "otherEntityField": "title",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "lists",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "list",
+      "otherEntityField": "description",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "sheets",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "sheet",
+      "otherEntityField": "number",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "rootCauses",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "rootCauses",
+      "otherEntityField": "description",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "users",
+      "otherEntityRelationshipName": "taskAssigned",
+      "relationshipName": "assignedTo"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "users",
+      "otherEntityRelationshipName": "taskToMonitor",
+      "relationshipName": "monitors"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "taskAttachmentImages",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "images"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "taskAttachmentOthers",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "othersAttachment"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "taskComments",
+      "otherEntityRelationshipName": "task",
+      "relationshipName": "taskComments"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "projects",
+      "otherEntityRelationshipName": "tasks",
+      "relationshipName": "project",
+      "otherEntityField": "name"
+    }
+  ],
+  "changelogDate": "20201108052250",
+  "entityTableName": "tasks",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "CMSProBaseService",
+  "applications": ["CMSProBaseGateway", "CMSProBaseService"],
+  "microserviceName": "CMSProBaseService",
+  "searchEngine": "elasticsearch"
+}

@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLanguages": {
+      "home": {
+        "title": "Languages",
+        "createLabel": "创建新 Languages",
+        "createOrEditLabel": "创建或编辑 Languages",
+        "search": "查找 Languages",
+        "notFound": "No Languages found"
+      },
+      "delete": {
+        "question": "你确定要删除 Languages {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Languages"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLanguages": {
+      "created": "Languages {{ param }} 创建成功",
+      "updated": "Languages {{ param }} 更新成功",
+      "deleted": "Languages {{ param }} 删除成功"
+    }
+  }
+}

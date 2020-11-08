@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachmentOthers": {
+      "home": {
+        "title": "Task Attachment Others",
+        "createLabel": "Create a new Task Attachment Others",
+        "createOrEditLabel": "Create or edit a Task Attachment Others",
+        "search": "Search for Task Attachment Others",
+        "notFound": "No Task Attachment Others found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Task Attachment Others {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Attachment Others"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachmentOthers": {
+      "created": "A new Task Attachment Others is created with identifier {{ param }}",
+      "updated": "A Task Attachment Others is updated with identifier {{ param }}",
+      "deleted": "A Task Attachment Others is deleted with identifier {{ param }}"
+    }
+  }
+}

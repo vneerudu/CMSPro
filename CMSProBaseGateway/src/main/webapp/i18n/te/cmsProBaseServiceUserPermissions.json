@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserPermissions": {
+      "home": {
+        "title": "User Permissions",
+        "createLabel": "కొత్త User Permissions  సృష్టించండి",
+        "createOrEditLabel": "User Permissions సృష్టించండి లేదా సవరించండి",
+        "search": "User Permissions కొరకు శోధించండి",
+        "notFound": "No User Permissions found"
+      },
+      "delete": {
+        "question": "మీరు User Permissions {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "User Permissions"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserPermissions": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త User Permissions సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త User Permissions సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త User Permissions తొలగించబడినది"
+    }
+  }
+}

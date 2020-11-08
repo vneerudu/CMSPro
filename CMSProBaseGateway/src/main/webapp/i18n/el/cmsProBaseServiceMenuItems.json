@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceMenuItems": {
+      "home": {
+        "title": "Menu Items",
+        "createLabel": "Δημιουργήστε ένα νέο Menu Items",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Menu Items",
+        "search": "Αναζήτηση για Menu Items",
+        "notFound": "No Menu Items found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Menu Items {{ id }};"
+      },
+      "detail": {
+        "title": "Menu Items"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceMenuItems": {
+      "created": "Ένα νέο Menu Items έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Menu Items έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Menu Items έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

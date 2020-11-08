@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskStatuses": {
+      "home": {
+        "title": "Task Statuses",
+        "createLabel": "Thêm mới một Task Statuses",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Task Statuses",
+        "search": "Tìm Task Statuses",
+        "notFound": "No Task Statuses found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Task Statuses {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Statuses"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskStatuses": {
+      "created": "Một Task Statuses mới được tạo với định danh {{ param }}",
+      "updated": "Một Task Statuses cập nhật với định danh {{ param }}",
+      "deleted": "Một Task Statuses đã xóa với định danh {{ param }}"
+    }
+  }
+}

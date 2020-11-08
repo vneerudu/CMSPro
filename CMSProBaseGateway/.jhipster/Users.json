@@ -1,0 +1,99 @@
+{
+  "name": "Users",
+  "fields": [
+    {
+      "fieldName": "firstName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "fullName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prefix",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emailAddress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "company",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "trackLocation",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "userGroups",
+      "otherEntityRelationshipName": "users",
+      "relationshipName": "userGroup"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "addresses",
+      "otherEntityRelationshipName": "user",
+      "relationshipName": "address"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "accounts",
+      "otherEntityRelationshipName": "users",
+      "relationshipName": "account",
+      "otherEntityField": "accountNumber"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "projectTeams",
+      "otherEntityRelationshipName": "users",
+      "relationshipName": "team",
+      "otherEntityField": "name"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "tasks",
+      "otherEntityRelationshipName": "assignedTo",
+      "relationshipName": "taskAssigned",
+      "otherEntityField": "title"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "tasks",
+      "otherEntityRelationshipName": "monitors",
+      "relationshipName": "taskToMonitor",
+      "otherEntityField": "title"
+    }
+  ],
+  "changelogDate": "20201108045450",
+  "entityTableName": "users",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "CMSProBaseService",
+  "applications": ["CMSProBaseGateway", "CMSProBaseService"],
+  "microserviceName": "CMSProBaseService",
+  "searchEngine": "elasticsearch"
+}

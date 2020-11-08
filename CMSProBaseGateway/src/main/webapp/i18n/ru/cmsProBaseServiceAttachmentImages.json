@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachmentImages": {
+      "home": {
+        "title": "Attachment Images",
+        "createLabel": "Создать новый Attachment Images",
+        "createOrEditLabel": "Создать или отредактировать Attachment Images",
+        "search": "Найти Attachment Images",
+        "notFound": "No Attachment Images found"
+      },
+      "delete": {
+        "question": "Вы уверены что хотите удалить Attachment Images {{ id }}?"
+      },
+      "detail": {
+        "title": "Attachment Images"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "attachment": "Attachment",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachmentImages": {
+      "created": "Новый Attachment Images создан с идентификатором {{ param }}",
+      "updated": "Attachment Images обновлен с идентификатором {{ param }}",
+      "deleted": "Attachment Images удален с идентификатором {{ param }}"
+    }
+  }
+}

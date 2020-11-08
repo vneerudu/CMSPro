@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAddressTypes": {
+      "home": {
+        "title": "Address Types",
+        "createLabel": "కొత్త Address Types  సృష్టించండి",
+        "createOrEditLabel": "Address Types సృష్టించండి లేదా సవరించండి",
+        "search": "Address Types కొరకు శోధించండి",
+        "notFound": "No Address Types found"
+      },
+      "delete": {
+        "question": "మీరు Address Types {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Address Types"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAddressTypes": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Address Types సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Address Types సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Address Types తొలగించబడినది"
+    }
+  }
+}

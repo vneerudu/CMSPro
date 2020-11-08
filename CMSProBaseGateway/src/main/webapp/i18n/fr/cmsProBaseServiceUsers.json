@@ -1,0 +1,41 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUsers": {
+      "home": {
+        "title": "Users",
+        "createLabel": "Créer un nouveau Users",
+        "createOrEditLabel": "Créer ou éditer un Users",
+        "search": "Recherche pour Users",
+        "notFound": "Aucun Users trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Users {{ id }} ?"
+      },
+      "detail": {
+        "title": "Users"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "fullName": "Full Name",
+      "prefix": "Prefix",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "title": "Title",
+      "company": "Company",
+      "trackLocation": "Track Location",
+      "userGroup": "User Group",
+      "address": "Address",
+      "account": "Account",
+      "team": "Team",
+      "taskAssigned": "Task Assigned",
+      "taskToMonitor": "Task To Monitor"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUsers": {
+      "created": "Un nouveau Users a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Users avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Users avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

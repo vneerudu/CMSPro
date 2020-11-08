@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskComments": {
+      "home": {
+        "title": "Task Comments",
+        "createLabel": "Δημιουργήστε ένα νέο Task Comments",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Task Comments",
+        "search": "Αναζήτηση για Task Comments",
+        "notFound": "No Task Comments found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Task Comments {{ id }};"
+      },
+      "detail": {
+        "title": "Task Comments"
+      },
+      "createdBy": "Created By",
+      "comment": "Comment",
+      "creationDate": "Creation Date",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskComments": {
+      "created": "Ένα νέο Task Comments έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Task Comments έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Task Comments έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

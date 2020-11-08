@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceProjectTeams": {
+      "home": {
+        "title": "ProjectTeams",
+        "createLabel": "Project Teams を追加",
+        "createOrEditLabel": "Project Teamsを追加または編集",
+        "search": "Search for Project Teams",
+        "notFound": "No Project Teams found"
+      },
+      "delete": {
+        "question": "Project Teams {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Project Teams"
+      },
+      "name": "Name",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "users": "Users",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceProjectTeams": {
+      "created": "A new Project Teams is created with identifier {{ param }}",
+      "updated": "A Project Teams is updated with identifier {{ param }}",
+      "deleted": "A Project Teams is deleted with identifier {{ param }}"
+    }
+  }
+}

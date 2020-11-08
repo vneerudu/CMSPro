@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAddressTypes": {
+      "home": {
+        "title": "Address Types",
+        "createLabel": "创建新 Address Types",
+        "createOrEditLabel": "创建或编辑 Address Types",
+        "search": "查找 Address Types",
+        "notFound": "No Address Types found"
+      },
+      "delete": {
+        "question": "你确定要删除 Address Types {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Address Types"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAddressTypes": {
+      "created": "Address Types {{ param }} 创建成功",
+      "updated": "Address Types {{ param }} 更新成功",
+      "deleted": "Address Types {{ param }} 删除成功"
+    }
+  }
+}

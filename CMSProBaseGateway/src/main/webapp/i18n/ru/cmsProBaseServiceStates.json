@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceStates": {
+      "home": {
+        "title": "States",
+        "createLabel": "Создать новый States",
+        "createOrEditLabel": "Создать или отредактировать States",
+        "search": "Найти States",
+        "notFound": "No States found"
+      },
+      "delete": {
+        "question": "Вы уверены что хотите удалить States {{ id }}?"
+      },
+      "detail": {
+        "title": "States"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceStates": {
+      "created": "Новый States создан с идентификатором {{ param }}",
+      "updated": "States обновлен с идентификатором {{ param }}",
+      "deleted": "States удален с идентификатором {{ param }}"
+    }
+  }
+}

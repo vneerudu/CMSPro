@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserPermissions": {
+      "home": {
+        "title": "User Permissions",
+        "createLabel": "创建新 User Permissions",
+        "createOrEditLabel": "创建或编辑 User Permissions",
+        "search": "查找 User Permissions",
+        "notFound": "No User Permissions found"
+      },
+      "delete": {
+        "question": "你确定要删除 User Permissions {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "User Permissions"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserPermissions": {
+      "created": "User Permissions {{ param }} 创建成功",
+      "updated": "User Permissions {{ param }} 更新成功",
+      "deleted": "User Permissions {{ param }} 删除成功"
+    }
+  }
+}

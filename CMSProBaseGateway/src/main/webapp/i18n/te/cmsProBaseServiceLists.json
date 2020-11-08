@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLists": {
+      "home": {
+        "title": "Lists",
+        "createLabel": "కొత్త Lists  సృష్టించండి",
+        "createOrEditLabel": "Lists సృష్టించండి లేదా సవరించండి",
+        "search": "Lists కొరకు శోధించండి",
+        "notFound": "No Lists found"
+      },
+      "delete": {
+        "question": "మీరు Lists {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Lists"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLists": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Lists సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Lists సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Lists తొలగించబడినది"
+    }
+  }
+}

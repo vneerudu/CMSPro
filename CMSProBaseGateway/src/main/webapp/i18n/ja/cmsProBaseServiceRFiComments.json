@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiComments": {
+      "home": {
+        "title": "RFIComments",
+        "createLabel": "RFI Comments を追加",
+        "createOrEditLabel": "RFI Commentsを追加または編集",
+        "search": "Search for RFI Comments",
+        "notFound": "No RFI Comments found"
+      },
+      "delete": {
+        "question": "RFI Comments {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "RFI Comments"
+      },
+      "createdBy": "Created By",
+      "comment": "Comment",
+      "creationDate": "Creation Date",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiComments": {
+      "created": "A new RFI Comments is created with identifier {{ param }}",
+      "updated": "A RFI Comments is updated with identifier {{ param }}",
+      "deleted": "A RFI Comments is deleted with identifier {{ param }}"
+    }
+  }
+}

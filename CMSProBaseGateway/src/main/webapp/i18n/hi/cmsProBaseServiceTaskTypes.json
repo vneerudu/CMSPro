@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskTypes": {
+      "home": {
+        "title": "TaskTypes",
+        "createLabel": "नया Task Types बनाएँ",
+        "createOrEditLabel": "Task Types बनाएँ या संपादित करें",
+        "search": "Task Types खोजें",
+        "notFound": "No Task Types found"
+      },
+      "delete": {
+        "question": "Task Types [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Task Types"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskTypes": {
+      "created": "एक नया Task Types [identifier: {{ param }}] तैयार है",
+      "updated": "एक Task Types [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Task Types [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

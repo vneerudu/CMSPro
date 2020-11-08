@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachments": {
+      "home": {
+        "title": "Attachments",
+        "createLabel": "Thêm mới một Attachments",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Attachments",
+        "search": "Tìm Attachments",
+        "notFound": "No Attachments found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Attachments {{ id }}?"
+      },
+      "detail": {
+        "title": "Attachments"
+      },
+      "folder": "Folder",
+      "fileName": "File Name",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "image": "Image",
+      "pdfattachment": "Pdfattachment",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachments": {
+      "created": "Một Attachments mới được tạo với định danh {{ param }}",
+      "updated": "Một Attachments cập nhật với định danh {{ param }}",
+      "deleted": "Một Attachments đã xóa với định danh {{ param }}"
+    }
+  }
+}

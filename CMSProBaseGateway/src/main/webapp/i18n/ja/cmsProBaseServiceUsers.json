@@ -1,0 +1,41 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUsers": {
+      "home": {
+        "title": "Users",
+        "createLabel": "Users を追加",
+        "createOrEditLabel": "Usersを追加または編集",
+        "search": "Search for Users",
+        "notFound": "No Users found"
+      },
+      "delete": {
+        "question": "Users {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Users"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "fullName": "Full Name",
+      "prefix": "Prefix",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "title": "Title",
+      "company": "Company",
+      "trackLocation": "Track Location",
+      "userGroup": "User Group",
+      "address": "Address",
+      "account": "Account",
+      "team": "Team",
+      "taskAssigned": "Task Assigned",
+      "taskToMonitor": "Task To Monitor"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUsers": {
+      "created": "A new Users is created with identifier {{ param }}",
+      "updated": "A Users is updated with identifier {{ param }}",
+      "deleted": "A Users is deleted with identifier {{ param }}"
+    }
+  }
+}

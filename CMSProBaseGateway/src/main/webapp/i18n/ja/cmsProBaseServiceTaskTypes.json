@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskTypes": {
+      "home": {
+        "title": "TaskTypes",
+        "createLabel": "Task Types を追加",
+        "createOrEditLabel": "Task Typesを追加または編集",
+        "search": "Search for Task Types",
+        "notFound": "No Task Types found"
+      },
+      "delete": {
+        "question": "Task Types {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Task Types"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskTypes": {
+      "created": "A new Task Types is created with identifier {{ param }}",
+      "updated": "A Task Types is updated with identifier {{ param }}",
+      "deleted": "A Task Types is deleted with identifier {{ param }}"
+    }
+  }
+}

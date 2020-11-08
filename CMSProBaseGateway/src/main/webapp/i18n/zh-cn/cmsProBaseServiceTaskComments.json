@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskComments": {
+      "home": {
+        "title": "Task Comments",
+        "createLabel": "创建新 Task Comments",
+        "createOrEditLabel": "创建或编辑 Task Comments",
+        "search": "查找 Task Comments",
+        "notFound": "No Task Comments found"
+      },
+      "delete": {
+        "question": "你确定要删除 Task Comments {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Task Comments"
+      },
+      "createdBy": "Created By",
+      "comment": "Comment",
+      "creationDate": "Creation Date",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskComments": {
+      "created": "Task Comments {{ param }} 创建成功",
+      "updated": "Task Comments {{ param }} 更新成功",
+      "deleted": "Task Comments {{ param }} 删除成功"
+    }
+  }
+}

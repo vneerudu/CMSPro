@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceDocuments": {
+      "home": {
+        "title": "Documents",
+        "createLabel": "Создать новый Documents",
+        "createOrEditLabel": "Создать или отредактировать Documents",
+        "search": "Найти Documents",
+        "notFound": "No Documents found"
+      },
+      "delete": {
+        "question": "Вы уверены что хотите удалить Documents {{ id }}?"
+      },
+      "detail": {
+        "title": "Documents"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheets": "Sheets"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceDocuments": {
+      "created": "Новый Documents создан с идентификатором {{ param }}",
+      "updated": "Documents обновлен с идентификатором {{ param }}",
+      "deleted": "Documents удален с идентификатором {{ param }}"
+    }
+  }
+}

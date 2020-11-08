@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiTimeLine": {
+      "home": {
+        "title": "RFI Time Lines",
+        "createLabel": "创建新 RFI Time Line",
+        "createOrEditLabel": "创建或编辑 RFI Time Line",
+        "search": "查找 RFI Time Line",
+        "notFound": "No RFI Time Lines found"
+      },
+      "delete": {
+        "question": "你确定要删除 RFI Time Line {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "RFI Time Line"
+      },
+      "createdBy": "Created By",
+      "message": "Message",
+      "creationDate": "Creation Date",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiTimeLine": {
+      "created": "RFI Time Line {{ param }} 创建成功",
+      "updated": "RFI Time Line {{ param }} 更新成功",
+      "deleted": "RFI Time Line {{ param }} 删除成功"
+    }
+  }
+}

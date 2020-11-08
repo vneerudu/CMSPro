@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAddressTypes": {
+      "home": {
+        "title": "AddressTypes",
+        "createLabel": "Créer un nouveau Address Types",
+        "createOrEditLabel": "Créer ou éditer un Address Types",
+        "search": "Recherche pour Address Types",
+        "notFound": "Aucun Address Types trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Address Types {{ id }} ?"
+      },
+      "detail": {
+        "title": "Address Types"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAddressTypes": {
+      "created": "Un nouveau Address Types a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Address Types avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Address Types avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

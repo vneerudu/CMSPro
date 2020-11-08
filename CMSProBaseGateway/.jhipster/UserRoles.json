@@ -1,0 +1,53 @@
+{
+  "name": "UserRoles",
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "userPermissions",
+      "otherEntityRelationshipName": "userRoles",
+      "relationshipName": "permissions"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "menuItems",
+      "otherEntityRelationshipName": "userRoles",
+      "relationshipName": "menuItems"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "userGroups",
+      "otherEntityRelationshipName": "userRoles",
+      "relationshipName": "userGroup",
+      "otherEntityField": "description"
+    }
+  ],
+  "changelogDate": "20201108045950",
+  "entityTableName": "user_roles",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "CMSProBaseService",
+  "applications": ["CMSProBaseGateway", "CMSProBaseService"],
+  "microserviceName": "CMSProBaseService",
+  "searchEngine": "elasticsearch"
+}

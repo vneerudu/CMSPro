@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceCountry": {
+      "home": {
+        "title": "Countries",
+        "createLabel": "Δημιουργήστε ένα νέο Country",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Country",
+        "search": "Αναζήτηση για Country",
+        "notFound": "No Countries found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Country {{ id }};"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceCountry": {
+      "created": "Ένα νέο Country έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Country έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Country έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

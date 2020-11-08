@@ -1,0 +1,62 @@
+{
+  "name": "Attachments",
+  "fields": [
+    {
+      "fieldName": "folder",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fileName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "attachmentImages",
+      "otherEntityRelationshipName": "attachment",
+      "relationshipName": "image",
+      "otherEntityField": "fileName",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "attachmentOthers",
+      "otherEntityRelationshipName": "attachment",
+      "relationshipName": "pdfattachment",
+      "otherEntityField": "fileName",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "sheets",
+      "otherEntityRelationshipName": "attachment",
+      "relationshipName": "sheet",
+      "otherEntityField": "number"
+    }
+  ],
+  "changelogDate": "20201108050850",
+  "entityTableName": "attachments",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "CMSProBaseService",
+  "applications": ["CMSProBaseGateway", "CMSProBaseService"],
+  "microserviceName": "CMSProBaseService",
+  "searchEngine": "elasticsearch"
+}

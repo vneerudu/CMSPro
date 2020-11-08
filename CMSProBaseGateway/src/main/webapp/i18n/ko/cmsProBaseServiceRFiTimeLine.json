@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiTimeLine": {
+      "home": {
+        "title": "RFI Time Lines",
+        "createLabel": "Create a new RFI Time Line",
+        "createOrEditLabel": "Create or edit a RFI Time Line",
+        "search": "Search for RFI Time Line",
+        "notFound": "No RFI Time Lines found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete RFI Time Line {{ id }}?"
+      },
+      "detail": {
+        "title": "RFI Time Line"
+      },
+      "createdBy": "Created By",
+      "message": "Message",
+      "creationDate": "Creation Date",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiTimeLine": {
+      "created": "A new RFI Time Line is created with identifier {{ param }}",
+      "updated": "A RFI Time Line is updated with identifier {{ param }}",
+      "deleted": "A RFI Time Line is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "home": {
+        "title": "SheetHistories",
+        "createLabel": "नया Sheet History बनाएँ",
+        "createOrEditLabel": "Sheet History बनाएँ या संपादित करें",
+        "search": "Sheet History खोजें",
+        "notFound": "No Sheet Histories found"
+      },
+      "delete": {
+        "question": "Sheet History [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Sheet History"
+      },
+      "number": "Number",
+      "version": "Version",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "created": "एक नया Sheet History [identifier: {{ param }}] तैयार है",
+      "updated": "एक Sheet History [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Sheet History [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTasks": {
+      "home": {
+        "title": "Tasks",
+        "createLabel": "కొత్త Tasks  సృష్టించండి",
+        "createOrEditLabel": "Tasks సృష్టించండి లేదా సవరించండి",
+        "search": "Tasks కొరకు శోధించండి",
+        "notFound": "No Tasks found"
+      },
+      "delete": {
+        "question": "మీరు Tasks {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Tasks"
+      },
+      "title": "Title",
+      "startDate": "Start Date",
+      "dueDate": "Due Date",
+      "description": "Description",
+      "costImpact": "Cost Impact",
+      "costImpactComment": "Cost Impact Comment",
+      "scheduleImpact": "Schedule Impact",
+      "scheduleImpactComment": "Schedule Impact Comment",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "type": "Type",
+      "status": "Status",
+      "location": "Location",
+      "stamp": "Stamp",
+      "list": "List",
+      "sheet": "Sheet",
+      "rootCauses": "Root Causes",
+      "assignedTo": "Assigned To",
+      "monitors": "Monitors",
+      "images": "Images",
+      "othersAttachment": "Others Attachment",
+      "taskComments": "Task Comments",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTasks": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Tasks సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Tasks సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Tasks తొలగించబడినది"
+    }
+  }
+}

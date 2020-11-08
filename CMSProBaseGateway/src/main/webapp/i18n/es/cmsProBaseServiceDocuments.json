@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceDocuments": {
+      "home": {
+        "title": "Documents",
+        "createLabel": "Crear nuevo Documents",
+        "createOrEditLabel": "Crear o editar Documents",
+        "search": "Buscar Documents",
+        "notFound": "Ningún Documents encontrado"
+      },
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Documents {{ id }}?"
+      },
+      "detail": {
+        "title": "Documents"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheets": "Sheets"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceDocuments": {
+      "created": "Un nuevo Documents ha sido creado con el identificador {{ param }}",
+      "updated": "Un Documents ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Documents ha sido eliminado con el identificador {{ param }}"
+    }
+  }
+}

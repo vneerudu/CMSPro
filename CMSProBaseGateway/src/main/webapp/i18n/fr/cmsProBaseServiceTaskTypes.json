@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskTypes": {
+      "home": {
+        "title": "TaskTypes",
+        "createLabel": "Créer un nouveau Task Types",
+        "createOrEditLabel": "Créer ou éditer un Task Types",
+        "search": "Recherche pour Task Types",
+        "notFound": "Aucun Task Types trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Task Types {{ id }} ?"
+      },
+      "detail": {
+        "title": "Task Types"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskTypes": {
+      "created": "Un nouveau Task Types a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Task Types avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Task Types avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

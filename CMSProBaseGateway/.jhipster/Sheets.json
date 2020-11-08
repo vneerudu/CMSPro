@@ -1,0 +1,90 @@
+{
+  "name": "Sheets",
+  "fields": [
+    {
+      "fieldName": "number",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "version",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "documents",
+      "otherEntityRelationshipName": "sheets",
+      "relationshipName": "documents",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "sheetTags",
+      "otherEntityRelationshipName": "sheets",
+      "relationshipName": "tags"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "sheetHistory",
+      "otherEntityRelationshipName": "sheet",
+      "relationshipName": "history"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "attachments",
+      "otherEntityRelationshipName": "sheet",
+      "relationshipName": "attachment"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "sheetComments",
+      "otherEntityRelationshipName": "sheet",
+      "relationshipName": "comment"
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "tasks",
+      "otherEntityRelationshipName": "sheet",
+      "relationshipName": "task",
+      "ownerSide": false
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "projects",
+      "otherEntityRelationshipName": "sheets",
+      "relationshipName": "project",
+      "otherEntityField": "name"
+    }
+  ],
+  "changelogDate": "20201108050450",
+  "entityTableName": "sheets",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "CMSProBaseService",
+  "applications": ["CMSProBaseGateway", "CMSProBaseService"],
+  "microserviceName": "CMSProBaseService",
+  "searchEngine": "elasticsearch"
+}

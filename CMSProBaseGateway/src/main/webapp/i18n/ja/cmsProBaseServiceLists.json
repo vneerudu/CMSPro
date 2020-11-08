@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLists": {
+      "home": {
+        "title": "Lists",
+        "createLabel": "Lists を追加",
+        "createOrEditLabel": "Listsを追加または編集",
+        "search": "Search for Lists",
+        "notFound": "No Lists found"
+      },
+      "delete": {
+        "question": "Lists {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Lists"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLists": {
+      "created": "A new Lists is created with identifier {{ param }}",
+      "updated": "A Lists is updated with identifier {{ param }}",
+      "deleted": "A Lists is deleted with identifier {{ param }}"
+    }
+  }
+}

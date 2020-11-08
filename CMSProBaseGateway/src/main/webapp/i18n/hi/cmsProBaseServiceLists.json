@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLists": {
+      "home": {
+        "title": "Lists",
+        "createLabel": "नया Lists बनाएँ",
+        "createOrEditLabel": "Lists बनाएँ या संपादित करें",
+        "search": "Lists खोजें",
+        "notFound": "No Lists found"
+      },
+      "delete": {
+        "question": "Lists [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Lists"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLists": {
+      "created": "एक नया Lists [identifier: {{ param }}] तैयार है",
+      "updated": "एक Lists [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Lists [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

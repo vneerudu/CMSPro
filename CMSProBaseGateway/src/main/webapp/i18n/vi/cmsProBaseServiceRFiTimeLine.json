@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiTimeLine": {
+      "home": {
+        "title": "RFI Time Lines",
+        "createLabel": "Thêm mới một RFI Time Line",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật RFI Time Line",
+        "search": "Tìm RFI Time Line",
+        "notFound": "No RFI Time Lines found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa RFI Time Line {{ id }}?"
+      },
+      "detail": {
+        "title": "RFI Time Line"
+      },
+      "createdBy": "Created By",
+      "message": "Message",
+      "creationDate": "Creation Date",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiTimeLine": {
+      "created": "Một RFI Time Line mới được tạo với định danh {{ param }}",
+      "updated": "Một RFI Time Line cập nhật với định danh {{ param }}",
+      "deleted": "Một RFI Time Line đã xóa với định danh {{ param }}"
+    }
+  }
+}

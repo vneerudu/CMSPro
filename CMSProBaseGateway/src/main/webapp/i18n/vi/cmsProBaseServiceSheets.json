@@ -1,0 +1,38 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheets": {
+      "home": {
+        "title": "Sheets",
+        "createLabel": "Thêm mới một Sheets",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Sheets",
+        "search": "Tìm Sheets",
+        "notFound": "No Sheets found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Sheets {{ id }}?"
+      },
+      "detail": {
+        "title": "Sheets"
+      },
+      "number": "Number",
+      "title": "Title",
+      "version": "Version",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "documents": "Documents",
+      "tags": "Tags",
+      "history": "History",
+      "attachment": "Attachment",
+      "comment": "Comment",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheets": {
+      "created": "Một Sheets mới được tạo với định danh {{ param }}",
+      "updated": "Một Sheets cập nhật với định danh {{ param }}",
+      "deleted": "Một Sheets đã xóa với định danh {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserGroups": {
+      "home": {
+        "title": "User Groups",
+        "createLabel": "కొత్త User Groups  సృష్టించండి",
+        "createOrEditLabel": "User Groups సృష్టించండి లేదా సవరించండి",
+        "search": "User Groups కొరకు శోధించండి",
+        "notFound": "No User Groups found"
+      },
+      "delete": {
+        "question": "మీరు User Groups {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "User Groups"
+      },
+      "code": "Code",
+      "description": "Description",
+      "userRoles": "User Roles",
+      "account": "Account",
+      "users": "Users"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserGroups": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త User Groups సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త User Groups సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త User Groups తొలగించబడినది"
+    }
+  }
+}

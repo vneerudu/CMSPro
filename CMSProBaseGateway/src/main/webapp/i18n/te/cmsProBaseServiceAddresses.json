@@ -1,0 +1,38 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAddresses": {
+      "home": {
+        "title": "Addresses",
+        "createLabel": "కొత్త Addresses  సృష్టించండి",
+        "createOrEditLabel": "Addresses సృష్టించండి లేదా సవరించండి",
+        "search": "Addresses కొరకు శోధించండి",
+        "notFound": "No Addresses found"
+      },
+      "delete": {
+        "question": "మీరు Addresses {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Addresses"
+      },
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "zipCode": "Zip Code",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "addressType": "Address Type",
+      "state": "State",
+      "country": "Country",
+      "user": "User",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAddresses": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Addresses సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Addresses సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Addresses తొలగించబడినది"
+    }
+  }
+}

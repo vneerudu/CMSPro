@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskLocations": {
+      "home": {
+        "title": "TaskLocations",
+        "createLabel": "Genera un nuovo Task Locations",
+        "createOrEditLabel": "Genera o modifica un Task Locations",
+        "search": "Cerca Task Locations",
+        "notFound": "No Task Locations found"
+      },
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Task Locations {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Locations"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskLocations": {
+      "created": "&Egrave; stato generato un nuovo Task Locations con identificatore { param }}",
+      "updated": "&Egrave; stato aggiornato Task Locations identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Task Locations con identificatore {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceMenuItems": {
+      "home": {
+        "title": "MenuItems",
+        "createLabel": "Menu Items を追加",
+        "createOrEditLabel": "Menu Itemsを追加または編集",
+        "search": "Search for Menu Items",
+        "notFound": "No Menu Items found"
+      },
+      "delete": {
+        "question": "Menu Items {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Menu Items"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceMenuItems": {
+      "created": "A new Menu Items is created with identifier {{ param }}",
+      "updated": "A Menu Items is updated with identifier {{ param }}",
+      "deleted": "A Menu Items is deleted with identifier {{ param }}"
+    }
+  }
+}

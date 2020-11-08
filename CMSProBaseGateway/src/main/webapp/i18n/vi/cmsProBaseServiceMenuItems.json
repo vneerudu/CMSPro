@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceMenuItems": {
+      "home": {
+        "title": "Menu Items",
+        "createLabel": "Thêm mới một Menu Items",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Menu Items",
+        "search": "Tìm Menu Items",
+        "notFound": "No Menu Items found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Menu Items {{ id }}?"
+      },
+      "detail": {
+        "title": "Menu Items"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceMenuItems": {
+      "created": "Một Menu Items mới được tạo với định danh {{ param }}",
+      "updated": "Một Menu Items cập nhật với định danh {{ param }}",
+      "deleted": "Một Menu Items đã xóa với định danh {{ param }}"
+    }
+  }
+}

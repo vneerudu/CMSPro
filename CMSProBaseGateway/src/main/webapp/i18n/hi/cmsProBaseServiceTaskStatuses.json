@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskStatuses": {
+      "home": {
+        "title": "TaskStatuses",
+        "createLabel": "नया Task Statuses बनाएँ",
+        "createOrEditLabel": "Task Statuses बनाएँ या संपादित करें",
+        "search": "Task Statuses खोजें",
+        "notFound": "No Task Statuses found"
+      },
+      "delete": {
+        "question": "Task Statuses [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Task Statuses"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskStatuses": {
+      "created": "एक नया Task Statuses [identifier: {{ param }}] तैयार है",
+      "updated": "एक Task Statuses [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Task Statuses [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "home": {
+        "title": "Sheet Histories",
+        "createLabel": "创建新 Sheet History",
+        "createOrEditLabel": "创建或编辑 Sheet History",
+        "search": "查找 Sheet History",
+        "notFound": "No Sheet Histories found"
+      },
+      "delete": {
+        "question": "你确定要删除 Sheet History {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sheet History"
+      },
+      "number": "Number",
+      "version": "Version",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "created": "Sheet History {{ param }} 创建成功",
+      "updated": "Sheet History {{ param }} 更新成功",
+      "deleted": "Sheet History {{ param }} 删除成功"
+    }
+  }
+}

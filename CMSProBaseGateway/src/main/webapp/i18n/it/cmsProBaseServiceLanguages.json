@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLanguages": {
+      "home": {
+        "title": "Languages",
+        "createLabel": "Genera un nuovo Languages",
+        "createOrEditLabel": "Genera o modifica un Languages",
+        "search": "Cerca Languages",
+        "notFound": "No Languages found"
+      },
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Languages {{ id }}?"
+      },
+      "detail": {
+        "title": "Languages"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLanguages": {
+      "created": "&Egrave; stato generato un nuovo Languages con identificatore { param }}",
+      "updated": "&Egrave; stato aggiornato Languages identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Languages con identificatore {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiStatuses": {
+      "home": {
+        "title": "RFIStatuses",
+        "createLabel": "Créer un nouveau RFI Statuses",
+        "createOrEditLabel": "Créer ou éditer un RFI Statuses",
+        "search": "Recherche pour RFI Statuses",
+        "notFound": "Aucun RFI Statuses trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le RFI Statuses {{ id }} ?"
+      },
+      "detail": {
+        "title": "RFI Statuses"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiStatuses": {
+      "created": "Un nouveau RFI Statuses a été créé avec l'identifiant {{ param }}",
+      "updated": "Le RFI Statuses avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le RFI Statuses avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

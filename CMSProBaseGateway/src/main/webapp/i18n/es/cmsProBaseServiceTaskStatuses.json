@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskStatuses": {
+      "home": {
+        "title": "Task Statuses",
+        "createLabel": "Crear nuevo Task Statuses",
+        "createOrEditLabel": "Crear o editar Task Statuses",
+        "search": "Buscar Task Statuses",
+        "notFound": "Ningún Task Statuses encontrado"
+      },
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Task Statuses {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Statuses"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskStatuses": {
+      "created": "Un nuevo Task Statuses ha sido creado con el identificador {{ param }}",
+      "updated": "Un Task Statuses ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Task Statuses ha sido eliminado con el identificador {{ param }}"
+    }
+  }
+}

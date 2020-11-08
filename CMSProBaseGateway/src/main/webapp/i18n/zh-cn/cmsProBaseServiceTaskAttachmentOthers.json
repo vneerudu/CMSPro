@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachmentOthers": {
+      "home": {
+        "title": "Task Attachment Others",
+        "createLabel": "创建新 Task Attachment Others",
+        "createOrEditLabel": "创建或编辑 Task Attachment Others",
+        "search": "查找 Task Attachment Others",
+        "notFound": "No Task Attachment Others found"
+      },
+      "delete": {
+        "question": "你确定要删除 Task Attachment Others {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Task Attachment Others"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachmentOthers": {
+      "created": "Task Attachment Others {{ param }} 创建成功",
+      "updated": "Task Attachment Others {{ param }} 更新成功",
+      "deleted": "Task Attachment Others {{ param }} 删除成功"
+    }
+  }
+}

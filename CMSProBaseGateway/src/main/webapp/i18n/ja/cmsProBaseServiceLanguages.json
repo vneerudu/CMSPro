@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLanguages": {
+      "home": {
+        "title": "Languages",
+        "createLabel": "Languages を追加",
+        "createOrEditLabel": "Languagesを追加または編集",
+        "search": "Search for Languages",
+        "notFound": "No Languages found"
+      },
+      "delete": {
+        "question": "Languages {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Languages"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLanguages": {
+      "created": "A new Languages is created with identifier {{ param }}",
+      "updated": "A Languages is updated with identifier {{ param }}",
+      "deleted": "A Languages is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceDocuments": {
+      "home": {
+        "title": "Documents",
+        "createLabel": "Thêm mới một Documents",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Documents",
+        "search": "Tìm Documents",
+        "notFound": "No Documents found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Documents {{ id }}?"
+      },
+      "detail": {
+        "title": "Documents"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheets": "Sheets"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceDocuments": {
+      "created": "Một Documents mới được tạo với định danh {{ param }}",
+      "updated": "Một Documents cập nhật với định danh {{ param }}",
+      "deleted": "Một Documents đã xóa với định danh {{ param }}"
+    }
+  }
+}

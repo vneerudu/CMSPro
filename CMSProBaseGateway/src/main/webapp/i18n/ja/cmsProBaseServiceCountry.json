@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceCountry": {
+      "home": {
+        "title": "Countries",
+        "createLabel": "Country を追加",
+        "createOrEditLabel": "Countryを追加または編集",
+        "search": "Search for Country",
+        "notFound": "No Countries found"
+      },
+      "delete": {
+        "question": "Country {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceCountry": {
+      "created": "A new Country is created with identifier {{ param }}",
+      "updated": "A Country is updated with identifier {{ param }}",
+      "deleted": "A Country is deleted with identifier {{ param }}"
+    }
+  }
+}

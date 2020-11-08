@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceMenuItems": {
+      "home": {
+        "title": "Menu Items",
+        "createLabel": "కొత్త Menu Items  సృష్టించండి",
+        "createOrEditLabel": "Menu Items సృష్టించండి లేదా సవరించండి",
+        "search": "Menu Items కొరకు శోధించండి",
+        "notFound": "No Menu Items found"
+      },
+      "delete": {
+        "question": "మీరు Menu Items {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Menu Items"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceMenuItems": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Menu Items సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Menu Items సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Menu Items తొలగించబడినది"
+    }
+  }
+}

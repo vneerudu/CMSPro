@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceProjectTeams": {
+      "home": {
+        "title": "Project Teams",
+        "createLabel": "Thêm mới một Project Teams",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Project Teams",
+        "search": "Tìm Project Teams",
+        "notFound": "No Project Teams found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Project Teams {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Teams"
+      },
+      "name": "Name",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "users": "Users",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceProjectTeams": {
+      "created": "Một Project Teams mới được tạo với định danh {{ param }}",
+      "updated": "Một Project Teams cập nhật với định danh {{ param }}",
+      "deleted": "Một Project Teams đã xóa với định danh {{ param }}"
+    }
+  }
+}

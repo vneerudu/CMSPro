@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachmentOthers": {
+      "home": {
+        "title": "AttachmentOthers",
+        "createLabel": "नया Attachment Others बनाएँ",
+        "createOrEditLabel": "Attachment Others बनाएँ या संपादित करें",
+        "search": "Attachment Others खोजें",
+        "notFound": "No Attachment Others found"
+      },
+      "delete": {
+        "question": "Attachment Others [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Attachment Others"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "attachment": "Attachment",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachmentOthers": {
+      "created": "एक नया Attachment Others [identifier: {{ param }}] तैयार है",
+      "updated": "एक Attachment Others [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Attachment Others [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

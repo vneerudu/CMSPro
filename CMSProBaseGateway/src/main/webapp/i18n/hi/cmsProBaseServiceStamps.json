@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceStamps": {
+      "home": {
+        "title": "Stamps",
+        "createLabel": "नया Stamps बनाएँ",
+        "createOrEditLabel": "Stamps बनाएँ या संपादित करें",
+        "search": "Stamps खोजें",
+        "notFound": "No Stamps found"
+      },
+      "delete": {
+        "question": "Stamps [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Stamps"
+      },
+      "stamp": "Stamp",
+      "title": "Title",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceStamps": {
+      "created": "एक नया Stamps [identifier: {{ param }}] तैयार है",
+      "updated": "एक Stamps [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Stamps [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

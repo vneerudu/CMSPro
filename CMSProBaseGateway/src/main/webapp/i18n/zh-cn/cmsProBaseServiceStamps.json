@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceStamps": {
+      "home": {
+        "title": "Stamps",
+        "createLabel": "创建新 Stamps",
+        "createOrEditLabel": "创建或编辑 Stamps",
+        "search": "查找 Stamps",
+        "notFound": "No Stamps found"
+      },
+      "delete": {
+        "question": "你确定要删除 Stamps {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Stamps"
+      },
+      "stamp": "Stamp",
+      "title": "Title",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceStamps": {
+      "created": "Stamps {{ param }} 创建成功",
+      "updated": "Stamps {{ param }} 更新成功",
+      "deleted": "Stamps {{ param }} 删除成功"
+    }
+  }
+}

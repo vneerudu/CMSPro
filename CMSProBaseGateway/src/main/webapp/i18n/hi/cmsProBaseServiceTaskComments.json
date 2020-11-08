@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskComments": {
+      "home": {
+        "title": "TaskComments",
+        "createLabel": "नया Task Comments बनाएँ",
+        "createOrEditLabel": "Task Comments बनाएँ या संपादित करें",
+        "search": "Task Comments खोजें",
+        "notFound": "No Task Comments found"
+      },
+      "delete": {
+        "question": "Task Comments [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Task Comments"
+      },
+      "createdBy": "Created By",
+      "comment": "Comment",
+      "creationDate": "Creation Date",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskComments": {
+      "created": "एक नया Task Comments [identifier: {{ param }}] तैयार है",
+      "updated": "एक Task Comments [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Task Comments [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

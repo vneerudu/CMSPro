@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserPermissions": {
+      "home": {
+        "title": "UserPermissions",
+        "createLabel": "Genera un nuovo User Permissions",
+        "createOrEditLabel": "Genera o modifica un User Permissions",
+        "search": "Cerca User Permissions",
+        "notFound": "No User Permissions found"
+      },
+      "delete": {
+        "question": "Sei sicuro di volere eliminare User Permissions {{ id }}?"
+      },
+      "detail": {
+        "title": "User Permissions"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserPermissions": {
+      "created": "&Egrave; stato generato un nuovo User Permissions con identificatore { param }}",
+      "updated": "&Egrave; stato aggiornato User Permissions identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato User Permissions con identificatore {{ param }}"
+    }
+  }
+}

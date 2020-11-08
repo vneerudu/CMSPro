@@ -1,0 +1,38 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheets": {
+      "home": {
+        "title": "Sheets",
+        "createLabel": "Создать новый Sheets",
+        "createOrEditLabel": "Создать или отредактировать Sheets",
+        "search": "Найти Sheets",
+        "notFound": "No Sheets found"
+      },
+      "delete": {
+        "question": "Вы уверены что хотите удалить Sheets {{ id }}?"
+      },
+      "detail": {
+        "title": "Sheets"
+      },
+      "number": "Number",
+      "title": "Title",
+      "version": "Version",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "documents": "Documents",
+      "tags": "Tags",
+      "history": "History",
+      "attachment": "Attachment",
+      "comment": "Comment",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheets": {
+      "created": "Новый Sheets создан с идентификатором {{ param }}",
+      "updated": "Sheets обновлен с идентификатором {{ param }}",
+      "deleted": "Sheets удален с идентификатором {{ param }}"
+    }
+  }
+}

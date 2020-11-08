@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLists": {
+      "home": {
+        "title": "Lists",
+        "createLabel": "创建新 Lists",
+        "createOrEditLabel": "创建或编辑 Lists",
+        "search": "查找 Lists",
+        "notFound": "No Lists found"
+      },
+      "delete": {
+        "question": "你确定要删除 Lists {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Lists"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLists": {
+      "created": "Lists {{ param }} 创建成功",
+      "updated": "Lists {{ param }} 更新成功",
+      "deleted": "Lists {{ param }} 删除成功"
+    }
+  }
+}

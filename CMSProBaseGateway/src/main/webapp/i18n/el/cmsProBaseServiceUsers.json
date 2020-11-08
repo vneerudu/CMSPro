@@ -1,0 +1,41 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUsers": {
+      "home": {
+        "title": "Users",
+        "createLabel": "Δημιουργήστε ένα νέο Users",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Users",
+        "search": "Αναζήτηση για Users",
+        "notFound": "No Users found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Users {{ id }};"
+      },
+      "detail": {
+        "title": "Users"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "fullName": "Full Name",
+      "prefix": "Prefix",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "title": "Title",
+      "company": "Company",
+      "trackLocation": "Track Location",
+      "userGroup": "User Group",
+      "address": "Address",
+      "account": "Account",
+      "team": "Team",
+      "taskAssigned": "Task Assigned",
+      "taskToMonitor": "Task To Monitor"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUsers": {
+      "created": "Ένα νέο Users έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Users έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Users έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

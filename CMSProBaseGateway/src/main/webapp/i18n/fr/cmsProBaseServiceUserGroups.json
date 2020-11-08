@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserGroups": {
+      "home": {
+        "title": "UserGroups",
+        "createLabel": "Créer un nouveau User Groups",
+        "createOrEditLabel": "Créer ou éditer un User Groups",
+        "search": "Recherche pour User Groups",
+        "notFound": "Aucun User Groups trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le User Groups {{ id }} ?"
+      },
+      "detail": {
+        "title": "User Groups"
+      },
+      "code": "Code",
+      "description": "Description",
+      "userRoles": "User Roles",
+      "account": "Account",
+      "users": "Users"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserGroups": {
+      "created": "Un nouveau User Groups a été créé avec l'identifiant {{ param }}",
+      "updated": "Le User Groups avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le User Groups avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

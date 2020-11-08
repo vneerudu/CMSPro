@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachmentOthers": {
+      "home": {
+        "title": "AttachmentOthers",
+        "createLabel": "Attachment Others を追加",
+        "createOrEditLabel": "Attachment Othersを追加または編集",
+        "search": "Search for Attachment Others",
+        "notFound": "No Attachment Others found"
+      },
+      "delete": {
+        "question": "Attachment Others {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Attachment Others"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "attachment": "Attachment",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachmentOthers": {
+      "created": "A new Attachment Others is created with identifier {{ param }}",
+      "updated": "A Attachment Others is updated with identifier {{ param }}",
+      "deleted": "A Attachment Others is deleted with identifier {{ param }}"
+    }
+  }
+}

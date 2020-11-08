@@ -1,0 +1,50 @@
+{
+  "name": "UserGroups",
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "userRoles",
+      "otherEntityRelationshipName": "userGroup",
+      "relationshipName": "userRoles"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "accounts",
+      "otherEntityRelationshipName": "groups",
+      "relationshipName": "account",
+      "otherEntityField": "accountNumber"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "users",
+      "otherEntityRelationshipName": "userGroup",
+      "relationshipName": "users",
+      "otherEntityField": "fullName"
+    }
+  ],
+  "changelogDate": "20201108045350",
+  "entityTableName": "user_groups",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "CMSProBaseService",
+  "applications": ["CMSProBaseGateway", "CMSProBaseService"],
+  "microserviceName": "CMSProBaseService",
+  "searchEngine": "elasticsearch"
+}

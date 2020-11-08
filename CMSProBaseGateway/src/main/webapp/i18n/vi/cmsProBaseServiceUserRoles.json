@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserRoles": {
+      "home": {
+        "title": "User Roles",
+        "createLabel": "Thêm mới một User Roles",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật User Roles",
+        "search": "Tìm User Roles",
+        "notFound": "No User Roles found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa User Roles {{ id }}?"
+      },
+      "detail": {
+        "title": "User Roles"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "permissions": "Permissions",
+      "menuItems": "Menu Items",
+      "userGroup": "User Group"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserRoles": {
+      "created": "Một User Roles mới được tạo với định danh {{ param }}",
+      "updated": "Một User Roles cập nhật với định danh {{ param }}",
+      "deleted": "Một User Roles đã xóa với định danh {{ param }}"
+    }
+  }
+}

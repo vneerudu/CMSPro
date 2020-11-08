@@ -1,0 +1,100 @@
+{
+  "name": "Projects",
+  "fields": [
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "finishDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "lastUpdate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "addresses",
+      "otherEntityRelationshipName": "project",
+      "relationshipName": "address"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "sheets",
+      "otherEntityRelationshipName": "project",
+      "relationshipName": "sheets"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "projectTeams",
+      "otherEntityRelationshipName": "project",
+      "relationshipName": "teams"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "tasks",
+      "otherEntityRelationshipName": "project",
+      "relationshipName": "tasks"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "stamps",
+      "otherEntityRelationshipName": "project",
+      "relationshipName": "stamps"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "lists",
+      "otherEntityRelationshipName": "project",
+      "relationshipName": "list"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "rFI",
+      "otherEntityRelationshipName": "project",
+      "relationshipName": "rfi"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "accounts",
+      "otherEntityRelationshipName": "project",
+      "relationshipName": "account",
+      "otherEntityField": "accountNumber"
+    }
+  ],
+  "changelogDate": "20201108050250",
+  "entityTableName": "projects",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "CMSProBaseService",
+  "applications": ["CMSProBaseGateway", "CMSProBaseService"],
+  "microserviceName": "CMSProBaseService",
+  "searchEngine": "elasticsearch"
+}

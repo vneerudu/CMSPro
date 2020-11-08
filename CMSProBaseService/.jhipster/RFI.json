@@ -1,0 +1,101 @@
+{
+  "name": "RFI",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "question",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "answer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sentDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dueDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "locked",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "lockedBy",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "rFIStatuses",
+      "otherEntityRelationshipName": "rfi",
+      "relationshipName": "status",
+      "otherEntityField": "description",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "taskAttachmentImages",
+      "otherEntityRelationshipName": "rfi",
+      "relationshipName": "taskImages"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "taskAttachmentOthers",
+      "otherEntityRelationshipName": "rfi",
+      "relationshipName": "taskAttachment"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "attachmentOthers",
+      "otherEntityRelationshipName": "rfi",
+      "relationshipName": "sheetAttachment"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "attachmentImages",
+      "otherEntityRelationshipName": "rfi",
+      "relationshipName": "sheetImages"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "rFIComments",
+      "otherEntityRelationshipName": "rfi",
+      "relationshipName": "rfiComments"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "rFITimeLine",
+      "otherEntityRelationshipName": "rfi",
+      "relationshipName": "timeLine"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "projects",
+      "otherEntityRelationshipName": "rfi",
+      "relationshipName": "project",
+      "otherEntityField": "name"
+    }
+  ],
+  "changelogDate": "20201108052550",
+  "entityTableName": "rfi",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "CMSProBaseService",
+  "applications": ["CMSProBaseGateway", "CMSProBaseService"],
+  "microserviceName": "CMSProBaseService",
+  "searchEngine": "elasticsearch"
+}

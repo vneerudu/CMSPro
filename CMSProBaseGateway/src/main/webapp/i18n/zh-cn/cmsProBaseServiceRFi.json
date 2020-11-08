@@ -1,0 +1,41 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFi": {
+      "home": {
+        "title": "RFIS",
+        "createLabel": "创建新 RFI",
+        "createOrEditLabel": "创建或编辑 RFI",
+        "search": "查找 RFI",
+        "notFound": "No RFIS found"
+      },
+      "delete": {
+        "question": "你确定要删除 RFI {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "RFI"
+      },
+      "title": "Title",
+      "question": "Question",
+      "answer": "Answer",
+      "sentDate": "Sent Date",
+      "dueDate": "Due Date",
+      "locked": "Locked",
+      "lockedBy": "Locked By",
+      "status": "Status",
+      "taskImages": "Task Images",
+      "taskAttachment": "Task Attachment",
+      "sheetAttachment": "Sheet Attachment",
+      "sheetImages": "Sheet Images",
+      "rfiComments": "Rfi Comments",
+      "timeLine": "Time Line",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFi": {
+      "created": "RFI {{ param }} 创建成功",
+      "updated": "RFI {{ param }} 更新成功",
+      "deleted": "RFI {{ param }} 删除成功"
+    }
+  }
+}

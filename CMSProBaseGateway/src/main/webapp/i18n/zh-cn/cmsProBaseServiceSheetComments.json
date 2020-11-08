@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetComments": {
+      "home": {
+        "title": "Sheet Comments",
+        "createLabel": "创建新 Sheet Comments",
+        "createOrEditLabel": "创建或编辑 Sheet Comments",
+        "search": "查找 Sheet Comments",
+        "notFound": "No Sheet Comments found"
+      },
+      "delete": {
+        "question": "你确定要删除 Sheet Comments {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sheet Comments"
+      },
+      "createdBy": "Created By",
+      "comment": "Comment",
+      "creationDate": "Creation Date",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetComments": {
+      "created": "Sheet Comments {{ param }} 创建成功",
+      "updated": "Sheet Comments {{ param }} 更新成功",
+      "deleted": "Sheet Comments {{ param }} 删除成功"
+    }
+  }
+}

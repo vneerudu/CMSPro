@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "home": {
+        "title": "Sheet Histories",
+        "createLabel": "కొత్త Sheet History  సృష్టించండి",
+        "createOrEditLabel": "Sheet History సృష్టించండి లేదా సవరించండి",
+        "search": "Sheet History కొరకు శోధించండి",
+        "notFound": "No Sheet Histories found"
+      },
+      "delete": {
+        "question": "మీరు Sheet History {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Sheet History"
+      },
+      "number": "Number",
+      "version": "Version",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Sheet History సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Sheet History సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Sheet History తొలగించబడినది"
+    }
+  }
+}

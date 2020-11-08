@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetTags": {
+      "home": {
+        "title": "SheetTags",
+        "createLabel": "Genera un nuovo Sheet Tags",
+        "createOrEditLabel": "Genera o modifica un Sheet Tags",
+        "search": "Cerca Sheet Tags",
+        "notFound": "No Sheet Tags found"
+      },
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Sheet Tags {{ id }}?"
+      },
+      "detail": {
+        "title": "Sheet Tags"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "sheets": "Sheets"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetTags": {
+      "created": "&Egrave; stato generato un nuovo Sheet Tags con identificatore { param }}",
+      "updated": "&Egrave; stato aggiornato Sheet Tags identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Sheet Tags con identificatore {{ param }}"
+    }
+  }
+}

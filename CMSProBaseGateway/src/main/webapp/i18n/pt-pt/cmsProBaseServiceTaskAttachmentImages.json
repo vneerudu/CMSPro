@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachmentImages": {
+      "home": {
+        "title": "Task Attachment Images",
+        "createLabel": "Criar novo(a) Task Attachment Images",
+        "createOrEditLabel": "Criar ou editar Task Attachment Images",
+        "search": "Procurar por Task Attachment Images",
+        "notFound": "Nenhum Task Attachment Images encontrado"
+      },
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Task Attachment Images {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Attachment Images"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachmentImages": {
+      "created": "Um novo Task Attachment Images foi criado com o identificador {{ param }}",
+      "updated": "Task Attachment Images com identificador {{ param }} foi actualizado",
+      "deleted": "Task Attachment Images com identificador {{ param }} foi eliminado"
+    }
+  }
+}

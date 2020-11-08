@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceMenuItems": {
+      "home": {
+        "title": "MenuItems",
+        "createLabel": "Genera un nuovo Menu Items",
+        "createOrEditLabel": "Genera o modifica un Menu Items",
+        "search": "Cerca Menu Items",
+        "notFound": "No Menu Items found"
+      },
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Menu Items {{ id }}?"
+      },
+      "detail": {
+        "title": "Menu Items"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceMenuItems": {
+      "created": "&Egrave; stato generato un nuovo Menu Items con identificatore { param }}",
+      "updated": "&Egrave; stato aggiornato Menu Items identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Menu Items con identificatore {{ param }}"
+    }
+  }
+}

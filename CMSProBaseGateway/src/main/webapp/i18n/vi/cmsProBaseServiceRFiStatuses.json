@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiStatuses": {
+      "home": {
+        "title": "RFI Statuses",
+        "createLabel": "Thêm mới một RFI Statuses",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật RFI Statuses",
+        "search": "Tìm RFI Statuses",
+        "notFound": "No RFI Statuses found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa RFI Statuses {{ id }}?"
+      },
+      "detail": {
+        "title": "RFI Statuses"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiStatuses": {
+      "created": "Một RFI Statuses mới được tạo với định danh {{ param }}",
+      "updated": "Một RFI Statuses cập nhật với định danh {{ param }}",
+      "deleted": "Một RFI Statuses đã xóa với định danh {{ param }}"
+    }
+  }
+}

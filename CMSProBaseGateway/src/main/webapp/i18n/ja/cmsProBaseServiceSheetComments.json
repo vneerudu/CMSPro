@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetComments": {
+      "home": {
+        "title": "SheetComments",
+        "createLabel": "Sheet Comments を追加",
+        "createOrEditLabel": "Sheet Commentsを追加または編集",
+        "search": "Search for Sheet Comments",
+        "notFound": "No Sheet Comments found"
+      },
+      "delete": {
+        "question": "Sheet Comments {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Sheet Comments"
+      },
+      "createdBy": "Created By",
+      "comment": "Comment",
+      "creationDate": "Creation Date",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetComments": {
+      "created": "A new Sheet Comments is created with identifier {{ param }}",
+      "updated": "A Sheet Comments is updated with identifier {{ param }}",
+      "deleted": "A Sheet Comments is deleted with identifier {{ param }}"
+    }
+  }
+}

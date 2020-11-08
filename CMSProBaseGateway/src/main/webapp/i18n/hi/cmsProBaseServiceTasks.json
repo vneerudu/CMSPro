@@ -1,0 +1,49 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTasks": {
+      "home": {
+        "title": "Tasks",
+        "createLabel": "नया Tasks बनाएँ",
+        "createOrEditLabel": "Tasks बनाएँ या संपादित करें",
+        "search": "Tasks खोजें",
+        "notFound": "No Tasks found"
+      },
+      "delete": {
+        "question": "Tasks [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Tasks"
+      },
+      "title": "Title",
+      "startDate": "Start Date",
+      "dueDate": "Due Date",
+      "description": "Description",
+      "costImpact": "Cost Impact",
+      "costImpactComment": "Cost Impact Comment",
+      "scheduleImpact": "Schedule Impact",
+      "scheduleImpactComment": "Schedule Impact Comment",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "type": "Type",
+      "status": "Status",
+      "location": "Location",
+      "stamp": "Stamp",
+      "list": "List",
+      "sheet": "Sheet",
+      "rootCauses": "Root Causes",
+      "assignedTo": "Assigned To",
+      "monitors": "Monitors",
+      "images": "Images",
+      "othersAttachment": "Others Attachment",
+      "taskComments": "Task Comments",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTasks": {
+      "created": "एक नया Tasks [identifier: {{ param }}] तैयार है",
+      "updated": "एक Tasks [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Tasks [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachmentOthers": {
+      "home": {
+        "title": "Task Attachment Others",
+        "createLabel": "Δημιουργήστε ένα νέο Task Attachment Others",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Task Attachment Others",
+        "search": "Αναζήτηση για Task Attachment Others",
+        "notFound": "No Task Attachment Others found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Task Attachment Others {{ id }};"
+      },
+      "detail": {
+        "title": "Task Attachment Others"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachmentOthers": {
+      "created": "Ένα νέο Task Attachment Others έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Task Attachment Others έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Task Attachment Others έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

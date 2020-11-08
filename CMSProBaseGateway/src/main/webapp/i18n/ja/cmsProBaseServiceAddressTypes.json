@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAddressTypes": {
+      "home": {
+        "title": "AddressTypes",
+        "createLabel": "Address Types を追加",
+        "createOrEditLabel": "Address Typesを追加または編集",
+        "search": "Search for Address Types",
+        "notFound": "No Address Types found"
+      },
+      "delete": {
+        "question": "Address Types {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Address Types"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAddressTypes": {
+      "created": "A new Address Types is created with identifier {{ param }}",
+      "updated": "A Address Types is updated with identifier {{ param }}",
+      "deleted": "A Address Types is deleted with identifier {{ param }}"
+    }
+  }
+}

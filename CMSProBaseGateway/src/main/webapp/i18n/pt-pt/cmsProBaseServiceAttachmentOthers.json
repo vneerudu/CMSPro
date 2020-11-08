@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachmentOthers": {
+      "home": {
+        "title": "Attachment Others",
+        "createLabel": "Criar novo(a) Attachment Others",
+        "createOrEditLabel": "Criar ou editar Attachment Others",
+        "search": "Procurar por Attachment Others",
+        "notFound": "Nenhum Attachment Others encontrado"
+      },
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Attachment Others {{ id }}?"
+      },
+      "detail": {
+        "title": "Attachment Others"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "attachment": "Attachment",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachmentOthers": {
+      "created": "Um novo Attachment Others foi criado com o identificador {{ param }}",
+      "updated": "Attachment Others com identificador {{ param }} foi actualizado",
+      "deleted": "Attachment Others com identificador {{ param }} foi eliminado"
+    }
+  }
+}

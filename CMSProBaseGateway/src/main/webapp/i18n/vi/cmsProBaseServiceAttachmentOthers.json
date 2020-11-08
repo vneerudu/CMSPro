@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachmentOthers": {
+      "home": {
+        "title": "Attachment Others",
+        "createLabel": "Thêm mới một Attachment Others",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Attachment Others",
+        "search": "Tìm Attachment Others",
+        "notFound": "No Attachment Others found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Attachment Others {{ id }}?"
+      },
+      "detail": {
+        "title": "Attachment Others"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "attachment": "Attachment",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachmentOthers": {
+      "created": "Một Attachment Others mới được tạo với định danh {{ param }}",
+      "updated": "Một Attachment Others cập nhật với định danh {{ param }}",
+      "deleted": "Một Attachment Others đã xóa với định danh {{ param }}"
+    }
+  }
+}

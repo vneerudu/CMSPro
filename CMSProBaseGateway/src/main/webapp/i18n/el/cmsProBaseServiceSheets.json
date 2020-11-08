@@ -1,0 +1,38 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheets": {
+      "home": {
+        "title": "Sheets",
+        "createLabel": "Δημιουργήστε ένα νέο Sheets",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Sheets",
+        "search": "Αναζήτηση για Sheets",
+        "notFound": "No Sheets found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Sheets {{ id }};"
+      },
+      "detail": {
+        "title": "Sheets"
+      },
+      "number": "Number",
+      "title": "Title",
+      "version": "Version",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "documents": "Documents",
+      "tags": "Tags",
+      "history": "History",
+      "attachment": "Attachment",
+      "comment": "Comment",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheets": {
+      "created": "Ένα νέο Sheets έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Sheets έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Sheets έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

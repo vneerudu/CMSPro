@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiStatuses": {
+      "home": {
+        "title": "RFIStatuses",
+        "createLabel": "नया RFI Statuses बनाएँ",
+        "createOrEditLabel": "RFI Statuses बनाएँ या संपादित करें",
+        "search": "RFI Statuses खोजें",
+        "notFound": "No RFI Statuses found"
+      },
+      "delete": {
+        "question": "RFI Statuses [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "RFI Statuses"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiStatuses": {
+      "created": "एक नया RFI Statuses [identifier: {{ param }}] तैयार है",
+      "updated": "एक RFI Statuses [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "RFI Statuses [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

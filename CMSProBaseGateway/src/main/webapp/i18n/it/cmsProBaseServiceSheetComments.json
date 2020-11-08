@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetComments": {
+      "home": {
+        "title": "SheetComments",
+        "createLabel": "Genera un nuovo Sheet Comments",
+        "createOrEditLabel": "Genera o modifica un Sheet Comments",
+        "search": "Cerca Sheet Comments",
+        "notFound": "No Sheet Comments found"
+      },
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Sheet Comments {{ id }}?"
+      },
+      "detail": {
+        "title": "Sheet Comments"
+      },
+      "createdBy": "Created By",
+      "comment": "Comment",
+      "creationDate": "Creation Date",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetComments": {
+      "created": "&Egrave; stato generato un nuovo Sheet Comments con identificatore { param }}",
+      "updated": "&Egrave; stato aggiornato Sheet Comments identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Sheet Comments con identificatore {{ param }}"
+    }
+  }
+}

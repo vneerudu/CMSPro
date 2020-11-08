@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachmentImages": {
+      "home": {
+        "title": "TaskAttachmentImages",
+        "createLabel": "नया Task Attachment Images बनाएँ",
+        "createOrEditLabel": "Task Attachment Images बनाएँ या संपादित करें",
+        "search": "Task Attachment Images खोजें",
+        "notFound": "No Task Attachment Images found"
+      },
+      "delete": {
+        "question": "Task Attachment Images [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Task Attachment Images"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachmentImages": {
+      "created": "एक नया Task Attachment Images [identifier: {{ param }}] तैयार है",
+      "updated": "एक Task Attachment Images [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Task Attachment Images [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

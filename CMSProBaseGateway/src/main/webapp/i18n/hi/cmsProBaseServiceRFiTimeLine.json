@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiTimeLine": {
+      "home": {
+        "title": "RFITimeLines",
+        "createLabel": "नया RFI Time Line बनाएँ",
+        "createOrEditLabel": "RFI Time Line बनाएँ या संपादित करें",
+        "search": "RFI Time Line खोजें",
+        "notFound": "No RFI Time Lines found"
+      },
+      "delete": {
+        "question": "RFI Time Line [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "RFI Time Line"
+      },
+      "createdBy": "Created By",
+      "message": "Message",
+      "creationDate": "Creation Date",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiTimeLine": {
+      "created": "एक नया RFI Time Line [identifier: {{ param }}] तैयार है",
+      "updated": "एक RFI Time Line [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "RFI Time Line [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

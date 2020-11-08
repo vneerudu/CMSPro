@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceCountry": {
+      "home": {
+        "title": "Countries",
+        "createLabel": "Criar novo(a) Country",
+        "createOrEditLabel": "Criar ou editar Country",
+        "search": "Procurar por Country",
+        "notFound": "Nenhum Countries encontrado"
+      },
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Country {{ id }}?"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceCountry": {
+      "created": "Um novo Country foi criado com o identificador {{ param }}",
+      "updated": "Country com identificador {{ param }} foi actualizado",
+      "deleted": "Country com identificador {{ param }} foi eliminado"
+    }
+  }
+}

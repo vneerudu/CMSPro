@@ -1,0 +1,38 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheets": {
+      "home": {
+        "title": "Sheets",
+        "createLabel": "Sheets を追加",
+        "createOrEditLabel": "Sheetsを追加または編集",
+        "search": "Search for Sheets",
+        "notFound": "No Sheets found"
+      },
+      "delete": {
+        "question": "Sheets {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Sheets"
+      },
+      "number": "Number",
+      "title": "Title",
+      "version": "Version",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "documents": "Documents",
+      "tags": "Tags",
+      "history": "History",
+      "attachment": "Attachment",
+      "comment": "Comment",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheets": {
+      "created": "A new Sheets is created with identifier {{ param }}",
+      "updated": "A Sheets is updated with identifier {{ param }}",
+      "deleted": "A Sheets is deleted with identifier {{ param }}"
+    }
+  }
+}

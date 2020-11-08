@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachmentOthers": {
+      "home": {
+        "title": "Task Attachment Others",
+        "createLabel": "Thêm mới một Task Attachment Others",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Task Attachment Others",
+        "search": "Tìm Task Attachment Others",
+        "notFound": "No Task Attachment Others found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Task Attachment Others {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Attachment Others"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachmentOthers": {
+      "created": "Một Task Attachment Others mới được tạo với định danh {{ param }}",
+      "updated": "Một Task Attachment Others cập nhật với định danh {{ param }}",
+      "deleted": "Một Task Attachment Others đã xóa với định danh {{ param }}"
+    }
+  }
+}

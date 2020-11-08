@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachmentOthers": {
+      "home": {
+        "title": "Attachment Others",
+        "createLabel": "Δημιουργήστε ένα νέο Attachment Others",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Attachment Others",
+        "search": "Αναζήτηση για Attachment Others",
+        "notFound": "No Attachment Others found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Attachment Others {{ id }};"
+      },
+      "detail": {
+        "title": "Attachment Others"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "attachment": "Attachment",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachmentOthers": {
+      "created": "Ένα νέο Attachment Others έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Attachment Others έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Attachment Others έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

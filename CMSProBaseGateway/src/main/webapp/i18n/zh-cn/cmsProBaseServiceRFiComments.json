@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiComments": {
+      "home": {
+        "title": "RFI Comments",
+        "createLabel": "创建新 RFI Comments",
+        "createOrEditLabel": "创建或编辑 RFI Comments",
+        "search": "查找 RFI Comments",
+        "notFound": "No RFI Comments found"
+      },
+      "delete": {
+        "question": "你确定要删除 RFI Comments {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "RFI Comments"
+      },
+      "createdBy": "Created By",
+      "comment": "Comment",
+      "creationDate": "Creation Date",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiComments": {
+      "created": "RFI Comments {{ param }} 创建成功",
+      "updated": "RFI Comments {{ param }} 更新成功",
+      "deleted": "RFI Comments {{ param }} 删除成功"
+    }
+  }
+}

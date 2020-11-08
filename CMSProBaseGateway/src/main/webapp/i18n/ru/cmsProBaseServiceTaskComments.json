@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskComments": {
+      "home": {
+        "title": "Task Comments",
+        "createLabel": "Создать новый Task Comments",
+        "createOrEditLabel": "Создать или отредактировать Task Comments",
+        "search": "Найти Task Comments",
+        "notFound": "No Task Comments found"
+      },
+      "delete": {
+        "question": "Вы уверены что хотите удалить Task Comments {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Comments"
+      },
+      "createdBy": "Created By",
+      "comment": "Comment",
+      "creationDate": "Creation Date",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskComments": {
+      "created": "Новый Task Comments создан с идентификатором {{ param }}",
+      "updated": "Task Comments обновлен с идентификатором {{ param }}",
+      "deleted": "Task Comments удален с идентификатором {{ param }}"
+    }
+  }
+}

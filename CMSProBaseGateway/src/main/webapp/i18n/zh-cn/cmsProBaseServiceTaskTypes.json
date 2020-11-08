@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskTypes": {
+      "home": {
+        "title": "Task Types",
+        "createLabel": "创建新 Task Types",
+        "createOrEditLabel": "创建或编辑 Task Types",
+        "search": "查找 Task Types",
+        "notFound": "No Task Types found"
+      },
+      "delete": {
+        "question": "你确定要删除 Task Types {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Task Types"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskTypes": {
+      "created": "Task Types {{ param }} 创建成功",
+      "updated": "Task Types {{ param }} 更新成功",
+      "deleted": "Task Types {{ param }} 删除成功"
+    }
+  }
+}

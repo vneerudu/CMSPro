@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiStatuses": {
+      "home": {
+        "title": "RFIStatuses",
+        "createLabel": "RFI Statuses を追加",
+        "createOrEditLabel": "RFI Statusesを追加または編集",
+        "search": "Search for RFI Statuses",
+        "notFound": "No RFI Statuses found"
+      },
+      "delete": {
+        "question": "RFI Statuses {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "RFI Statuses"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiStatuses": {
+      "created": "A new RFI Statuses is created with identifier {{ param }}",
+      "updated": "A RFI Statuses is updated with identifier {{ param }}",
+      "deleted": "A RFI Statuses is deleted with identifier {{ param }}"
+    }
+  }
+}

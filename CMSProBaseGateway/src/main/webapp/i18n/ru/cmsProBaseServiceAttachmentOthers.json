@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachmentOthers": {
+      "home": {
+        "title": "Attachment Others",
+        "createLabel": "Создать новый Attachment Others",
+        "createOrEditLabel": "Создать или отредактировать Attachment Others",
+        "search": "Найти Attachment Others",
+        "notFound": "No Attachment Others found"
+      },
+      "delete": {
+        "question": "Вы уверены что хотите удалить Attachment Others {{ id }}?"
+      },
+      "detail": {
+        "title": "Attachment Others"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "attachment": "Attachment",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachmentOthers": {
+      "created": "Новый Attachment Others создан с идентификатором {{ param }}",
+      "updated": "Attachment Others обновлен с идентификатором {{ param }}",
+      "deleted": "Attachment Others удален с идентификатором {{ param }}"
+    }
+  }
+}

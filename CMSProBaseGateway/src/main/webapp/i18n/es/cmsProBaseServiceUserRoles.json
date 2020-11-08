@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserRoles": {
+      "home": {
+        "title": "User Roles",
+        "createLabel": "Crear nuevo User Roles",
+        "createOrEditLabel": "Crear o editar User Roles",
+        "search": "Buscar User Roles",
+        "notFound": "Ningún User Roles encontrado"
+      },
+      "delete": {
+        "question": "¿Seguro que quiere eliminar User Roles {{ id }}?"
+      },
+      "detail": {
+        "title": "User Roles"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "permissions": "Permissions",
+      "menuItems": "Menu Items",
+      "userGroup": "User Group"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserRoles": {
+      "created": "Un nuevo User Roles ha sido creado con el identificador {{ param }}",
+      "updated": "Un User Roles ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un User Roles ha sido eliminado con el identificador {{ param }}"
+    }
+  }
+}

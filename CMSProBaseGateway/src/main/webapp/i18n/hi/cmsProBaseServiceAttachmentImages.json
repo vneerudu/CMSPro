@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachmentImages": {
+      "home": {
+        "title": "AttachmentImages",
+        "createLabel": "नया Attachment Images बनाएँ",
+        "createOrEditLabel": "Attachment Images बनाएँ या संपादित करें",
+        "search": "Attachment Images खोजें",
+        "notFound": "No Attachment Images found"
+      },
+      "delete": {
+        "question": "Attachment Images [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Attachment Images"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "attachment": "Attachment",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachmentImages": {
+      "created": "एक नया Attachment Images [identifier: {{ param }}] तैयार है",
+      "updated": "एक Attachment Images [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Attachment Images [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

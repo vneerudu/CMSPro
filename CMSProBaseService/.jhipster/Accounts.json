@@ -1,0 +1,97 @@
+{
+  "name": "Accounts",
+  "fields": [
+    {
+      "fieldName": "accountNumber",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "firstName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "emailAddress",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "languages",
+      "otherEntityRelationshipName": "accounts",
+      "relationshipName": "language",
+      "otherEntityField": "code",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "logos",
+      "otherEntityRelationshipName": "accounts",
+      "relationshipName": "logo",
+      "otherEntityField": "fileName",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "accountStatuses",
+      "otherEntityRelationshipName": "accounts",
+      "relationshipName": "status",
+      "otherEntityField": "description",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "users",
+      "otherEntityRelationshipName": "account",
+      "relationshipName": "users"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "userGroups",
+      "otherEntityRelationshipName": "account",
+      "relationshipName": "groups"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "projects",
+      "otherEntityRelationshipName": "account",
+      "relationshipName": "project"
+    }
+  ],
+  "changelogDate": "20201108045250",
+  "entityTableName": "accounts",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "CMSProBaseService",
+  "applications": ["CMSProBaseGateway", "CMSProBaseService"],
+  "microserviceName": "CMSProBaseService",
+  "searchEngine": "elasticsearch"
+}

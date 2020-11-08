@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskLocations": {
+      "home": {
+        "title": "TaskLocations",
+        "createLabel": "नया Task Locations बनाएँ",
+        "createOrEditLabel": "Task Locations बनाएँ या संपादित करें",
+        "search": "Task Locations खोजें",
+        "notFound": "No Task Locations found"
+      },
+      "delete": {
+        "question": "Task Locations [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Task Locations"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskLocations": {
+      "created": "एक नया Task Locations [identifier: {{ param }}] तैयार है",
+      "updated": "एक Task Locations [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Task Locations [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

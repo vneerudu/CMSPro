@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetTags": {
+      "home": {
+        "title": "Sheet Tags",
+        "createLabel": "Thêm mới một Sheet Tags",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Sheet Tags",
+        "search": "Tìm Sheet Tags",
+        "notFound": "No Sheet Tags found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Sheet Tags {{ id }}?"
+      },
+      "detail": {
+        "title": "Sheet Tags"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "sheets": "Sheets"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetTags": {
+      "created": "Một Sheet Tags mới được tạo với định danh {{ param }}",
+      "updated": "Một Sheet Tags cập nhật với định danh {{ param }}",
+      "deleted": "Một Sheet Tags đã xóa với định danh {{ param }}"
+    }
+  }
+}

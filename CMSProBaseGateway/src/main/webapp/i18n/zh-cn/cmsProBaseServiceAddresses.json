@@ -1,0 +1,38 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAddresses": {
+      "home": {
+        "title": "Addresses",
+        "createLabel": "创建新 Addresses",
+        "createOrEditLabel": "创建或编辑 Addresses",
+        "search": "查找 Addresses",
+        "notFound": "No Addresses found"
+      },
+      "delete": {
+        "question": "你确定要删除 Addresses {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Addresses"
+      },
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "zipCode": "Zip Code",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "addressType": "Address Type",
+      "state": "State",
+      "country": "Country",
+      "user": "User",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAddresses": {
+      "created": "Addresses {{ param }} 创建成功",
+      "updated": "Addresses {{ param }} 更新成功",
+      "deleted": "Addresses {{ param }} 删除成功"
+    }
+  }
+}

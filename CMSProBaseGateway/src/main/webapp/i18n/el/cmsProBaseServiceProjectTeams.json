@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceProjectTeams": {
+      "home": {
+        "title": "Project Teams",
+        "createLabel": "Δημιουργήστε ένα νέο Project Teams",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Project Teams",
+        "search": "Αναζήτηση για Project Teams",
+        "notFound": "No Project Teams found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Project Teams {{ id }};"
+      },
+      "detail": {
+        "title": "Project Teams"
+      },
+      "name": "Name",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "users": "Users",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceProjectTeams": {
+      "created": "Ένα νέο Project Teams έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Project Teams έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Project Teams έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAddresses": {
+      "home": {
+        "title": "Addresses",
+        "createLabel": "Create a new Addresses",
+        "createOrEditLabel": "Create or edit a Addresses",
+        "search": "Search for Addresses",
+        "notFound": "No Addresses found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Addresses {{ id }}?"
+      },
+      "detail": {
+        "title": "Addresses"
+      },
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "zipCode": "Zip Code",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "addressType": "Address Type",
+      "state": "State",
+      "country": "Country",
+      "user": "User",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAddresses": {
+      "created": "A new Addresses is created with identifier {{ param }}",
+      "updated": "A Addresses is updated with identifier {{ param }}",
+      "deleted": "A Addresses is deleted with identifier {{ param }}"
+    }
+  }
+}

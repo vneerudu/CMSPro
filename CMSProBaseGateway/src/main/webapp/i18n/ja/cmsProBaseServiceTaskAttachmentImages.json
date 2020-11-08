@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachmentImages": {
+      "home": {
+        "title": "TaskAttachmentImages",
+        "createLabel": "Task Attachment Images を追加",
+        "createOrEditLabel": "Task Attachment Imagesを追加または編集",
+        "search": "Search for Task Attachment Images",
+        "notFound": "No Task Attachment Images found"
+      },
+      "delete": {
+        "question": "Task Attachment Images {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Task Attachment Images"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachmentImages": {
+      "created": "A new Task Attachment Images is created with identifier {{ param }}",
+      "updated": "A Task Attachment Images is updated with identifier {{ param }}",
+      "deleted": "A Task Attachment Images is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceDocuments": {
+      "home": {
+        "title": "Documents",
+        "createLabel": "नया Documents बनाएँ",
+        "createOrEditLabel": "Documents बनाएँ या संपादित करें",
+        "search": "Documents खोजें",
+        "notFound": "No Documents found"
+      },
+      "delete": {
+        "question": "Documents [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Documents"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheets": "Sheets"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceDocuments": {
+      "created": "एक नया Documents [identifier: {{ param }}] तैयार है",
+      "updated": "एक Documents [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Documents [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

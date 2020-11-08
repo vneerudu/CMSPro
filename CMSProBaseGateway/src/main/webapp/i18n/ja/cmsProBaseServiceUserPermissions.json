@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserPermissions": {
+      "home": {
+        "title": "UserPermissions",
+        "createLabel": "User Permissions を追加",
+        "createOrEditLabel": "User Permissionsを追加または編集",
+        "search": "Search for User Permissions",
+        "notFound": "No User Permissions found"
+      },
+      "delete": {
+        "question": "User Permissions {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "User Permissions"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserPermissions": {
+      "created": "A new User Permissions is created with identifier {{ param }}",
+      "updated": "A User Permissions is updated with identifier {{ param }}",
+      "deleted": "A User Permissions is deleted with identifier {{ param }}"
+    }
+  }
+}

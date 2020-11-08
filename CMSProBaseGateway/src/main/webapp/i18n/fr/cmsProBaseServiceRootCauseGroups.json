@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRootCauseGroups": {
+      "home": {
+        "title": "RootCauseGroups",
+        "createLabel": "Créer un nouveau Root Cause Groups",
+        "createOrEditLabel": "Créer ou éditer un Root Cause Groups",
+        "search": "Recherche pour Root Cause Groups",
+        "notFound": "Aucun Root Cause Groups trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Root Cause Groups {{ id }} ?"
+      },
+      "detail": {
+        "title": "Root Cause Groups"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "rootCause": "Root Cause"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRootCauseGroups": {
+      "created": "Un nouveau Root Cause Groups a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Root Cause Groups avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Root Cause Groups avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLists": {
+      "home": {
+        "title": "Lists",
+        "createLabel": "Thêm mới một Lists",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Lists",
+        "search": "Tìm Lists",
+        "notFound": "No Lists found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Lists {{ id }}?"
+      },
+      "detail": {
+        "title": "Lists"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLists": {
+      "created": "Một Lists mới được tạo với định danh {{ param }}",
+      "updated": "Một Lists cập nhật với định danh {{ param }}",
+      "deleted": "Một Lists đã xóa với định danh {{ param }}"
+    }
+  }
+}

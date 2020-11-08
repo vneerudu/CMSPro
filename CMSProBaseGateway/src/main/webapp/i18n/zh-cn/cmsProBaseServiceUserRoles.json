@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserRoles": {
+      "home": {
+        "title": "User Roles",
+        "createLabel": "创建新 User Roles",
+        "createOrEditLabel": "创建或编辑 User Roles",
+        "search": "查找 User Roles",
+        "notFound": "No User Roles found"
+      },
+      "delete": {
+        "question": "你确定要删除 User Roles {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "User Roles"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "permissions": "Permissions",
+      "menuItems": "Menu Items",
+      "userGroup": "User Group"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserRoles": {
+      "created": "User Roles {{ param }} 创建成功",
+      "updated": "User Roles {{ param }} 更新成功",
+      "deleted": "User Roles {{ param }} 删除成功"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserRoles": {
+      "home": {
+        "title": "User Roles",
+        "createLabel": "Δημιουργήστε ένα νέο User Roles",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα User Roles",
+        "search": "Αναζήτηση για User Roles",
+        "notFound": "No User Roles found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο User Roles {{ id }};"
+      },
+      "detail": {
+        "title": "User Roles"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "permissions": "Permissions",
+      "menuItems": "Menu Items",
+      "userGroup": "User Group"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserRoles": {
+      "created": "Ένα νέο User Roles έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα User Roles έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα User Roles έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

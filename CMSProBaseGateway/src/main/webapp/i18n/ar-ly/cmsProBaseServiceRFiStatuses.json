@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiStatuses": {
+      "home": {
+        "title": "RFI Statuses",
+        "createLabel": "Create a new RFI Statuses",
+        "createOrEditLabel": "Create or edit a RFI Statuses",
+        "search": "Search for RFI Statuses",
+        "notFound": "No RFI Statuses found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete RFI Statuses {{ id }}?"
+      },
+      "detail": {
+        "title": "RFI Statuses"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiStatuses": {
+      "created": "A new RFI Statuses is created with identifier {{ param }}",
+      "updated": "A RFI Statuses is updated with identifier {{ param }}",
+      "deleted": "A RFI Statuses is deleted with identifier {{ param }}"
+    }
+  }
+}

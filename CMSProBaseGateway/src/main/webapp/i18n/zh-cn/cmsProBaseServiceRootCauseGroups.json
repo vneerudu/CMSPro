@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRootCauseGroups": {
+      "home": {
+        "title": "Root Cause Groups",
+        "createLabel": "创建新 Root Cause Groups",
+        "createOrEditLabel": "创建或编辑 Root Cause Groups",
+        "search": "查找 Root Cause Groups",
+        "notFound": "No Root Cause Groups found"
+      },
+      "delete": {
+        "question": "你确定要删除 Root Cause Groups {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Root Cause Groups"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "rootCause": "Root Cause"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRootCauseGroups": {
+      "created": "Root Cause Groups {{ param }} 创建成功",
+      "updated": "Root Cause Groups {{ param }} 更新成功",
+      "deleted": "Root Cause Groups {{ param }} 删除成功"
+    }
+  }
+}

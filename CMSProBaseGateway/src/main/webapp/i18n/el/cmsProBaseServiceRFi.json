@@ -1,0 +1,41 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFi": {
+      "home": {
+        "title": "RFIS",
+        "createLabel": "Δημιουργήστε ένα νέο RFI",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα RFI",
+        "search": "Αναζήτηση για RFI",
+        "notFound": "No RFIS found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο RFI {{ id }};"
+      },
+      "detail": {
+        "title": "RFI"
+      },
+      "title": "Title",
+      "question": "Question",
+      "answer": "Answer",
+      "sentDate": "Sent Date",
+      "dueDate": "Due Date",
+      "locked": "Locked",
+      "lockedBy": "Locked By",
+      "status": "Status",
+      "taskImages": "Task Images",
+      "taskAttachment": "Task Attachment",
+      "sheetAttachment": "Sheet Attachment",
+      "sheetImages": "Sheet Images",
+      "rfiComments": "Rfi Comments",
+      "timeLine": "Time Line",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFi": {
+      "created": "Ένα νέο RFI έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα RFI έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα RFI έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

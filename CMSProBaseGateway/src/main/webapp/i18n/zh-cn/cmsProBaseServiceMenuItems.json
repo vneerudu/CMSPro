@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceMenuItems": {
+      "home": {
+        "title": "Menu Items",
+        "createLabel": "创建新 Menu Items",
+        "createOrEditLabel": "创建或编辑 Menu Items",
+        "search": "查找 Menu Items",
+        "notFound": "No Menu Items found"
+      },
+      "delete": {
+        "question": "你确定要删除 Menu Items {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Menu Items"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceMenuItems": {
+      "created": "Menu Items {{ param }} 创建成功",
+      "updated": "Menu Items {{ param }} 更新成功",
+      "deleted": "Menu Items {{ param }} 删除成功"
+    }
+  }
+}

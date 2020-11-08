@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceProjectTeams": {
+      "home": {
+        "title": "Project Teams",
+        "createLabel": "Criar novo(a) Project Teams",
+        "createOrEditLabel": "Criar ou editar Project Teams",
+        "search": "Procurar por Project Teams",
+        "notFound": "Nenhum Project Teams encontrado"
+      },
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Project Teams {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Teams"
+      },
+      "name": "Name",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "users": "Users",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceProjectTeams": {
+      "created": "Um novo Project Teams foi criado com o identificador {{ param }}",
+      "updated": "Project Teams com identificador {{ param }} foi actualizado",
+      "deleted": "Project Teams com identificador {{ param }} foi eliminado"
+    }
+  }
+}

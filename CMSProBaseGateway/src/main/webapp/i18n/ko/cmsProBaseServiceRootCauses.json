@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRootCauses": {
+      "home": {
+        "title": "Root Causes",
+        "createLabel": "Create a new Root Causes",
+        "createOrEditLabel": "Create or edit a Root Causes",
+        "search": "Search for Root Causes",
+        "notFound": "No Root Causes found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Root Causes {{ id }}?"
+      },
+      "detail": {
+        "title": "Root Causes"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task",
+      "groups": "Groups"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRootCauses": {
+      "created": "A new Root Causes is created with identifier {{ param }}",
+      "updated": "A Root Causes is updated with identifier {{ param }}",
+      "deleted": "A Root Causes is deleted with identifier {{ param }}"
+    }
+  }
+}

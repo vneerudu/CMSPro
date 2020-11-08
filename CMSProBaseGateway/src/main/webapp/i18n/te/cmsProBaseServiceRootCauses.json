@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRootCauses": {
+      "home": {
+        "title": "Root Causes",
+        "createLabel": "కొత్త Root Causes  సృష్టించండి",
+        "createOrEditLabel": "Root Causes సృష్టించండి లేదా సవరించండి",
+        "search": "Root Causes కొరకు శోధించండి",
+        "notFound": "No Root Causes found"
+      },
+      "delete": {
+        "question": "మీరు Root Causes {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Root Causes"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task",
+      "groups": "Groups"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRootCauses": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Root Causes సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Root Causes సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Root Causes తొలగించబడినది"
+    }
+  }
+}

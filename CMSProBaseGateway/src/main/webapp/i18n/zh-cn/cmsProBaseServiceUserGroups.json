@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserGroups": {
+      "home": {
+        "title": "User Groups",
+        "createLabel": "创建新 User Groups",
+        "createOrEditLabel": "创建或编辑 User Groups",
+        "search": "查找 User Groups",
+        "notFound": "No User Groups found"
+      },
+      "delete": {
+        "question": "你确定要删除 User Groups {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "User Groups"
+      },
+      "code": "Code",
+      "description": "Description",
+      "userRoles": "User Roles",
+      "account": "Account",
+      "users": "Users"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserGroups": {
+      "created": "User Groups {{ param }} 创建成功",
+      "updated": "User Groups {{ param }} 更新成功",
+      "deleted": "User Groups {{ param }} 删除成功"
+    }
+  }
+}

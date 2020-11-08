@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachments": {
+      "home": {
+        "title": "TaskAttachments",
+        "createLabel": "Task Attachments を追加",
+        "createOrEditLabel": "Task Attachmentsを追加または編集",
+        "search": "Search for Task Attachments",
+        "notFound": "No Task Attachments found"
+      },
+      "delete": {
+        "question": "Task Attachments {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Task Attachments"
+      },
+      "folder": "Folder",
+      "fileName": "File Name",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachments": {
+      "created": "A new Task Attachments is created with identifier {{ param }}",
+      "updated": "A Task Attachments is updated with identifier {{ param }}",
+      "deleted": "A Task Attachments is deleted with identifier {{ param }}"
+    }
+  }
+}

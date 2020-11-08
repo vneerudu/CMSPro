@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceStates": {
+      "home": {
+        "title": "States",
+        "createLabel": "States を追加",
+        "createOrEditLabel": "Statesを追加または編集",
+        "search": "Search for States",
+        "notFound": "No States found"
+      },
+      "delete": {
+        "question": "States {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "States"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceStates": {
+      "created": "A new States is created with identifier {{ param }}",
+      "updated": "A States is updated with identifier {{ param }}",
+      "deleted": "A States is deleted with identifier {{ param }}"
+    }
+  }
+}

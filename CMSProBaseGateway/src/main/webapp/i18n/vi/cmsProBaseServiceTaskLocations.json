@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskLocations": {
+      "home": {
+        "title": "Task Locations",
+        "createLabel": "Thêm mới một Task Locations",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Task Locations",
+        "search": "Tìm Task Locations",
+        "notFound": "No Task Locations found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Task Locations {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Locations"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskLocations": {
+      "created": "Một Task Locations mới được tạo với định danh {{ param }}",
+      "updated": "Một Task Locations cập nhật với định danh {{ param }}",
+      "deleted": "Một Task Locations đã xóa với định danh {{ param }}"
+    }
+  }
+}

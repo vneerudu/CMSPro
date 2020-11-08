@@ -1,0 +1,49 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTasks": {
+      "home": {
+        "title": "Tasks",
+        "createLabel": "Criar novo(a) Tasks",
+        "createOrEditLabel": "Criar ou editar Tasks",
+        "search": "Procurar por Tasks",
+        "notFound": "Nenhum Tasks encontrado"
+      },
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Tasks {{ id }}?"
+      },
+      "detail": {
+        "title": "Tasks"
+      },
+      "title": "Title",
+      "startDate": "Start Date",
+      "dueDate": "Due Date",
+      "description": "Description",
+      "costImpact": "Cost Impact",
+      "costImpactComment": "Cost Impact Comment",
+      "scheduleImpact": "Schedule Impact",
+      "scheduleImpactComment": "Schedule Impact Comment",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "type": "Type",
+      "status": "Status",
+      "location": "Location",
+      "stamp": "Stamp",
+      "list": "List",
+      "sheet": "Sheet",
+      "rootCauses": "Root Causes",
+      "assignedTo": "Assigned To",
+      "monitors": "Monitors",
+      "images": "Images",
+      "othersAttachment": "Others Attachment",
+      "taskComments": "Task Comments",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTasks": {
+      "created": "Um novo Tasks foi criado com o identificador {{ param }}",
+      "updated": "Tasks com identificador {{ param }} foi actualizado",
+      "deleted": "Tasks com identificador {{ param }} foi eliminado"
+    }
+  }
+}

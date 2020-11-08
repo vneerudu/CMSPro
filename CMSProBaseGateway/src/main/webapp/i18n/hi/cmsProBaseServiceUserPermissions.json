@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserPermissions": {
+      "home": {
+        "title": "UserPermissions",
+        "createLabel": "नया User Permissions बनाएँ",
+        "createOrEditLabel": "User Permissions बनाएँ या संपादित करें",
+        "search": "User Permissions खोजें",
+        "notFound": "No User Permissions found"
+      },
+      "delete": {
+        "question": "User Permissions [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "User Permissions"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserPermissions": {
+      "created": "एक नया User Permissions [identifier: {{ param }}] तैयार है",
+      "updated": "एक User Permissions [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "User Permissions [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiComments": {
+      "home": {
+        "title": "RFIComments",
+        "createLabel": "नया RFI Comments बनाएँ",
+        "createOrEditLabel": "RFI Comments बनाएँ या संपादित करें",
+        "search": "RFI Comments खोजें",
+        "notFound": "No RFI Comments found"
+      },
+      "delete": {
+        "question": "RFI Comments [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "RFI Comments"
+      },
+      "createdBy": "Created By",
+      "comment": "Comment",
+      "creationDate": "Creation Date",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiComments": {
+      "created": "एक नया RFI Comments [identifier: {{ param }}] तैयार है",
+      "updated": "एक RFI Comments [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "RFI Comments [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

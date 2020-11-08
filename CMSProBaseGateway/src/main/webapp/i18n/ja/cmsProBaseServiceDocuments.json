@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceDocuments": {
+      "home": {
+        "title": "Documents",
+        "createLabel": "Documents を追加",
+        "createOrEditLabel": "Documentsを追加または編集",
+        "search": "Search for Documents",
+        "notFound": "No Documents found"
+      },
+      "delete": {
+        "question": "Documents {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Documents"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheets": "Sheets"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceDocuments": {
+      "created": "A new Documents is created with identifier {{ param }}",
+      "updated": "A Documents is updated with identifier {{ param }}",
+      "deleted": "A Documents is deleted with identifier {{ param }}"
+    }
+  }
+}

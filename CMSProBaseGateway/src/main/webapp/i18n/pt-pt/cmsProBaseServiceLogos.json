@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLogos": {
+      "home": {
+        "title": "Logos",
+        "createLabel": "Criar novo(a) Logos",
+        "createOrEditLabel": "Criar ou editar Logos",
+        "search": "Procurar por Logos",
+        "notFound": "Nenhum Logos encontrado"
+      },
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Logos {{ id }}?"
+      },
+      "detail": {
+        "title": "Logos"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLogos": {
+      "created": "Um novo Logos foi criado com o identificador {{ param }}",
+      "updated": "Logos com identificador {{ param }} foi actualizado",
+      "deleted": "Logos com identificador {{ param }} foi eliminado"
+    }
+  }
+}

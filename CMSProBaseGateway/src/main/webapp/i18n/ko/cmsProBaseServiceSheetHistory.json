@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "home": {
+        "title": "Sheet Histories",
+        "createLabel": "Create a new Sheet History",
+        "createOrEditLabel": "Create or edit a Sheet History",
+        "search": "Search for Sheet History",
+        "notFound": "No Sheet Histories found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Sheet History {{ id }}?"
+      },
+      "detail": {
+        "title": "Sheet History"
+      },
+      "number": "Number",
+      "version": "Version",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "created": "A new Sheet History is created with identifier {{ param }}",
+      "updated": "A Sheet History is updated with identifier {{ param }}",
+      "deleted": "A Sheet History is deleted with identifier {{ param }}"
+    }
+  }
+}

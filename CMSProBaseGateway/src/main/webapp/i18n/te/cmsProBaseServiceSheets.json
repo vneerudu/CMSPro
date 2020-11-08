@@ -1,0 +1,38 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheets": {
+      "home": {
+        "title": "Sheets",
+        "createLabel": "కొత్త Sheets  సృష్టించండి",
+        "createOrEditLabel": "Sheets సృష్టించండి లేదా సవరించండి",
+        "search": "Sheets కొరకు శోధించండి",
+        "notFound": "No Sheets found"
+      },
+      "delete": {
+        "question": "మీరు Sheets {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Sheets"
+      },
+      "number": "Number",
+      "title": "Title",
+      "version": "Version",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "documents": "Documents",
+      "tags": "Tags",
+      "history": "History",
+      "attachment": "Attachment",
+      "comment": "Comment",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheets": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Sheets సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Sheets సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Sheets తొలగించబడినది"
+    }
+  }
+}

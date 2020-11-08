@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRootCauses": {
+      "home": {
+        "title": "Root Causes",
+        "createLabel": "创建新 Root Causes",
+        "createOrEditLabel": "创建或编辑 Root Causes",
+        "search": "查找 Root Causes",
+        "notFound": "No Root Causes found"
+      },
+      "delete": {
+        "question": "你确定要删除 Root Causes {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Root Causes"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task",
+      "groups": "Groups"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRootCauses": {
+      "created": "Root Causes {{ param }} 创建成功",
+      "updated": "Root Causes {{ param }} 更新成功",
+      "deleted": "Root Causes {{ param }} 删除成功"
+    }
+  }
+}

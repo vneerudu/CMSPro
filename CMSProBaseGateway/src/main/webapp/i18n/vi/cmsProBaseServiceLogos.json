@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLogos": {
+      "home": {
+        "title": "Logos",
+        "createLabel": "Thêm mới một Logos",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Logos",
+        "search": "Tìm Logos",
+        "notFound": "No Logos found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Logos {{ id }}?"
+      },
+      "detail": {
+        "title": "Logos"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLogos": {
+      "created": "Một Logos mới được tạo với định danh {{ param }}",
+      "updated": "Một Logos cập nhật với định danh {{ param }}",
+      "deleted": "Một Logos đã xóa với định danh {{ param }}"
+    }
+  }
+}

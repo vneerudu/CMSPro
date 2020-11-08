@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRootCauses": {
+      "home": {
+        "title": "Root Causes",
+        "createLabel": "Thêm mới một Root Causes",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Root Causes",
+        "search": "Tìm Root Causes",
+        "notFound": "No Root Causes found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Root Causes {{ id }}?"
+      },
+      "detail": {
+        "title": "Root Causes"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task",
+      "groups": "Groups"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRootCauses": {
+      "created": "Một Root Causes mới được tạo với định danh {{ param }}",
+      "updated": "Một Root Causes cập nhật với định danh {{ param }}",
+      "deleted": "Một Root Causes đã xóa với định danh {{ param }}"
+    }
+  }
+}

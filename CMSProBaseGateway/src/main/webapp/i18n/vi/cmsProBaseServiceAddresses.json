@@ -1,0 +1,38 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAddresses": {
+      "home": {
+        "title": "Addresses",
+        "createLabel": "Thêm mới một Addresses",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Addresses",
+        "search": "Tìm Addresses",
+        "notFound": "No Addresses found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Addresses {{ id }}?"
+      },
+      "detail": {
+        "title": "Addresses"
+      },
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "zipCode": "Zip Code",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "addressType": "Address Type",
+      "state": "State",
+      "country": "Country",
+      "user": "User",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAddresses": {
+      "created": "Một Addresses mới được tạo với định danh {{ param }}",
+      "updated": "Một Addresses cập nhật với định danh {{ param }}",
+      "deleted": "Một Addresses đã xóa với định danh {{ param }}"
+    }
+  }
+}

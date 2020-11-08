@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceStates": {
+      "home": {
+        "title": "States",
+        "createLabel": "కొత్త States  సృష్టించండి",
+        "createOrEditLabel": "States సృష్టించండి లేదా సవరించండి",
+        "search": "States కొరకు శోధించండి",
+        "notFound": "No States found"
+      },
+      "delete": {
+        "question": "మీరు States {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "States"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceStates": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త States సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త States సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త States తొలగించబడినది"
+    }
+  }
+}

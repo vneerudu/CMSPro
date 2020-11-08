@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachmentImages": {
+      "home": {
+        "title": "Attachment Images",
+        "createLabel": "Δημιουργήστε ένα νέο Attachment Images",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Attachment Images",
+        "search": "Αναζήτηση για Attachment Images",
+        "notFound": "No Attachment Images found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Attachment Images {{ id }};"
+      },
+      "detail": {
+        "title": "Attachment Images"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "attachment": "Attachment",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachmentImages": {
+      "created": "Ένα νέο Attachment Images έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Attachment Images έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Attachment Images έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

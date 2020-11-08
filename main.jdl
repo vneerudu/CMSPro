@@ -1,0 +1,443 @@
+application {
+  config {
+    applicationType gateway
+    authenticationType jwt
+    baseName CMSProBaseGateway
+    blueprints [generator-jhipster-vuejs]
+    buildTool maven
+    cacheProvider hazelcast
+    clientFramework vuejs
+    clientPackageManager npm
+    clientTheme materia
+    clientThemeVariant dark
+    creationTimestamp 1604202920497
+    databaseType mongodb
+    devDatabaseType mongodb
+    dtoSuffix DTO
+    embeddableLaunchScript false
+    enableHibernateCache false
+    enableSwaggerCodegen false
+    enableTranslation true
+    jhiPrefix jhi
+    jhipsterVersion "6.10.3"
+    jwtSecretKey "YTllMzBkNzhhNDcwYTJmZTgwNzg1ZTkxMzU5YTg5ZmVkYjNhNGIwYzIyMmMyYjA0YmU4Njk3NjA2Mjk0YTY1MjFlNzE2NWJkNjQxMDk3YjNlMTkyNTQ5YmRkMGRhNTk2ZWE3NjkxYzcyNDM1YzRjMGY1YmFlZGRlZTFjYzI2ZGM="
+    languages [en, ar-ly, zh-cn, fr, el, hi, it, ja, ko, pt-pt, ru, es, te, vi]
+    messageBroker false
+    nativeLanguage en
+    packageName com.cmspro.base.microservice
+    prodDatabaseType mongodb
+    searchEngine false
+    serverPort 8080
+    serviceDiscoveryType eureka
+    skipClient false
+    skipServer false
+    skipUserManagement false
+    testFrameworks []
+    useSass true
+    websocket spring-websocket
+  }
+  entities Languages, Logos, AccountStatuses, Accounts, UserGroups, Users, AddressTypes, Addresses, States, Country, UserRoles, UserPermissions, MenuItems, Projects, SheetTags, Sheets, SheetHistory, SheetComments, Documents, Attachments, AttachmentImages, AttachmentOthers, ProjectTeams, TaskStatuses, TaskTypes,  Lists, Stamps, RootCauseGroups, RootCauses, TaskAttachments, TaskAttachmentImages, TaskAttachmentOthers, TaskComments, Tasks, TaskLocations, RFIStatuses, RFI, RFIComments, RFITimeLine
+
+}
+
+
+application {
+  config {
+    applicationType microservice
+    authenticationType jwt
+    baseName CMSProBaseService
+    blueprints []
+    buildTool maven
+    cacheProvider hazelcast
+    clientPackageManager npm
+    creationTimestamp 1604202541215
+    databaseType mongodb
+    devDatabaseType mongodb
+    dtoSuffix DTO
+    embeddableLaunchScript false
+    enableHibernateCache false
+    enableSwaggerCodegen true
+    enableTranslation false
+    jhiPrefix jhi
+    jhipsterVersion "6.10.3"
+    jwtSecretKey "ZWJkYTI5ZjFhZjVkNjljOTc2MTczMDczMzYwMDcyYzhlNjZjNmM0MWExNDQ5YTlmYjZmYjE3MDdmYTQ4MjAxN2QzYmI5MGUzYjFjOWU1ZjIyZTU5NDJkZGI1ZWRiYjNkYmJkZjg0MDE5NGUwOTFiYjdlMzdkMmY1ZmQzYmEyM2Y="
+    languages [en, fr]
+    messageBroker kafka
+    nativeLanguage en
+    packageName com.cmspro.base.microservice
+    prodDatabaseType mongodb
+    searchEngine elasticsearch
+    serverPort 8081
+    serviceDiscoveryType eureka
+    skipClient true
+    skipUserManagement true
+    testFrameworks []
+    websocket false
+  }
+
+  entities Languages, Logos, AccountStatuses, Accounts, UserGroups, Users, AddressTypes, Addresses, States, Country, UserRoles, UserPermissions, MenuItems, Projects, SheetTags, Sheets, SheetHistory, SheetComments, Documents, Attachments, AttachmentImages, AttachmentOthers, ProjectTeams, TaskStatuses, TaskTypes,  Lists, Stamps, RootCauseGroups, RootCauses, TaskAttachments, TaskAttachmentImages, TaskAttachmentOthers, TaskComments, Tasks, TaskLocations, RFIStatuses, RFI, RFIComments, RFITimeLine
+}
+
+//Account Specific begin
+entity Languages{
+	code String required,
+    description String required
+}
+entity Logos
+{
+	fileName String required unique,
+    fileType String,
+    content AnyBlob required,
+  	createdBy String required,
+    creationDate LocalDate required,
+}
+entity AccountStatuses
+{
+	code String,
+	description String,
+    isActive Boolean 
+}
+entity Accounts {
+	accountNumber Long required,
+    firstName String required,
+    lastName String required,
+    emailAddress String required unique,
+    phoneNumber String required,
+    creationDate LocalDate required
+    createdBy String required,
+}
+//Account Specific end
+
+//User Specifi begin
+entity UserGroups {
+    code String required unique,
+    description String required
+}
+entity Users
+{
+    firstName String required,
+    lastName String required,
+    fullName String,
+    prefix String
+    emailAddress String,
+    phoneNumber String,
+    title String,
+    company String,
+    trackLocation Boolean required
+}
+entity AddressTypes
+{
+	//Project address, user address
+	code String required,
+    description String required
+}
+entity Addresses
+{
+	address1 String,
+    address2 String,
+    city String,
+    zipCode Long,
+    isActive Boolean,
+    createdBy String required,
+    creationDate LocalDate required,
+}
+entity States{
+	code String required,
+    description String required
+}
+entity Country{
+	code String required,
+    description String required
+}
+
+entity UserRoles
+{
+    code String required,
+    description String required,
+    isActive Boolean
+
+}
+entity UserPermissions
+{
+	code String required,
+    description String required,
+    isActive Boolean
+}
+entity MenuItems
+{
+	code String required,
+    description String required,
+    isActive Boolean
+}
+//User Specific end
+
+//Project Specific begin
+entity Projects 
+{
+	code String,
+    name String required,
+    startDate LocalDate,
+    finishDate LocalDate,
+    lastUpdate LocalDate,
+    createdBy String required,
+    creationDate LocalDate required,
+}
+//Sheets Specific begin
+
+entity SheetTags
+{
+	code String required,
+    description String required,
+    isActive Boolean
+}
+entity Sheets
+{
+	number Long required,
+    title String,
+    version String required unique,
+    createdBy String required,
+    creationDate LocalDate required,
+}
+entity SheetHistory
+{
+	number Long required,
+    version String 
+    isActive Boolean required,
+    createdBy String required,
+    creationDate LocalDate required,
+}
+entity SheetComments
+{
+	createdBy String required,
+	comment String required, 
+    creationDate LocalDate required,
+}
+entity Documents
+{
+	fileName String required unique,
+    fileType String,
+    content AnyBlob required,
+    createdBy String required,
+    creationDate LocalDate required,
+}
+
+entity Attachments
+{
+	folder String,
+	fileName String required unique,
+	createdBy String required,
+    creationDate LocalDate required,
+}
+entity AttachmentImages
+{
+	fileName String required unique,
+    fileType String,
+    content AnyBlob,
+  	createdBy String required,
+    creationDate LocalDate required,
+}
+entity AttachmentOthers
+{
+	fileName String required unique,
+    fileType String,
+    content AnyBlob,
+	createdBy String required,
+    creationDate LocalDate required,
+}
+//Sheets Specific End
+
+//Project teams start
+entity ProjectTeams
+{
+	name String required
+ 	createdBy String required,
+    creationDate LocalDate required,
+}
+//Project teams end 
+
+//Tasks specific start
+entity TaskStatuses
+{
+	code String required,
+    description String required,
+    isActive Boolean
+}
+entity TaskTypes
+{
+	code String required,
+    description String required,
+    isActive Boolean
+}
+entity Lists
+{
+	code String required,
+    description String required,
+    isActive Boolean
+}
+entity Stamps
+{
+	stamp String required,
+    title String required,
+	createdBy String required,
+    creationDate LocalDate required,
+}
+
+entity RootCauseGroups
+{
+	code String required,
+    description String required,
+    isActive Boolean
+}
+entity RootCauses
+{
+	code String required,
+    description String required,
+    isActive Boolean
+}
+entity TaskAttachments
+{
+	folder String,
+	fileName String required unique,
+	createdBy String required,
+    creationDate LocalDate required,
+}
+entity TaskAttachmentImages
+{
+	fileName String required unique,
+    fileType String,
+    content AnyBlob,
+  	createdBy String required,
+    creationDate LocalDate required,
+}
+entity TaskAttachmentOthers
+{
+	fileName String required unique,
+    fileType String,
+    content AnyBlob,
+	createdBy String required,
+    creationDate LocalDate required,
+}
+entity TaskComments
+{
+	createdBy String required,
+	comment String required, 
+    creationDate LocalDate required,
+}
+entity Tasks
+{
+	title String required,
+    startDate LocalDate,
+    dueDate LocalDate,
+    description String,
+    costImpact Boolean,
+    costImpactComment String,
+    scheduleImpact Boolean,
+    scheduleImpactComment String,
+    createdBy String required,
+    creationDate LocalDate required,
+
+}
+entity TaskLocations
+{
+	code String required,
+    description String required,
+    isActive Boolean
+}
+//Tasks specific ENd
+
+//RFI specific start
+entity RFIStatuses{
+	code String required,
+    description String required,
+    isActive Boolean
+}
+entity RFI{
+	title String required,
+    question String required,
+    answer String,
+    sentDate LocalDate,
+    dueDate LocalDate,
+    locked Boolean,
+    lockedBy String
+}
+entity RFIComments
+{
+	createdBy String required,
+	comment String required, 
+    creationDate LocalDate required,
+}
+entity RFITimeLine
+{
+	createdBy String required,
+	message String required, 
+    creationDate LocalDate required,
+}
+//RFI specific END
+
+relationship OneToMany {	
+	
+    Accounts{users(fullName)} to Users{account(accountNumber)}
+    Accounts{groups(description)} to UserGroups{account(accountNumber)}
+    Users{userGroup(description)} to UserGroups{users(fullName)}
+    UserGroups{userRoles(description)} to UserRoles{userGroup(description)}
+    UserRoles{permissions(description)} to UserPermissions{userRoles(description)}
+    UserRoles{menuItems(description)} to MenuItems{userRoles(description)}
+    Users{address} to Addresses{user(fullName)} 
+	Accounts{project(name)} to Projects{account(accountNumber)} 
+    Projects{address(address1)} to Addresses{project(name)} 
+    Sheets{tags(description)} to SheetTags
+    Projects{sheets(number)} to Sheets{project(name)} 
+    Sheets{history(version)} to SheetHistory{sheet(number)}
+    Sheets{attachment} to Attachments{sheet}
+    Sheets{comment} to SheetComments{sheet}
+    Projects{teams} to ProjectTeams{project}
+	ProjectTeams{users} to Users{team}
+    Projects{tasks} to Tasks{project}
+    Tasks{assignedTo} to Users{taskAssigned}
+    Tasks{monitors} to Users{taskToMonitor}
+    Projects{stamps} to Stamps{project}
+    Projects{list} to Lists{project}
+    RootCauseGroups{rootCause} to RootCauses{groups}
+    Tasks{images} to TaskAttachmentImages{task}
+    Tasks{othersAttachment} to TaskAttachmentOthers{task}
+    Tasks{taskComments} to TaskComments{task}
+	
+    Projects{rfi} to RFI{project}
+    RFI{taskImages} to TaskAttachmentImages{rfi}
+    RFI{taskAttachment} to TaskAttachmentOthers{rfi}
+    RFI{sheetAttachment} to AttachmentOthers{rfi}
+    RFI{sheetImages} to AttachmentImages{rfi}
+    RFI{rfiComments} to RFIComments{rfi}
+    RFI{timeLine} to RFITimeLine{rfi}
+
+ 
+}
+
+relationship OneToOne {
+	Accounts{language} to Languages
+	Accounts{logo} to Logos
+	Accounts{status} to AccountStatuses
+    Addresses{addressType} to AddressTypes
+    Addresses{state} to States
+    Addresses{country} to Country
+    Sheets to Documents
+    Attachments{image} to AttachmentImages{attachment}
+    Attachments{pdfattachment} to AttachmentOthers{attachment}
+    Tasks{type} to TaskTypes{task}
+    Tasks{status} to TaskStatuses{task}
+    Tasks{location} to TaskLocations{task}
+    Tasks{stamp} to Stamps{task}
+    Tasks{list} to Lists{task}
+	Tasks{sheet} to Sheets{task}
+    Tasks{rootCauses} to RootCauses{task}
+    RFI{status} to RFIStatuses{task}
+
+    
+}
+
+dto Languages, Logos, AccountStatuses, Accounts, UserGroups, Users, AddressTypes, Addresses, States, Country, UserRoles, UserPermissions, MenuItems, Projects, SheetTags, Sheets, SheetHistory, SheetComments, Documents, Attachments, AttachmentImages, AttachmentOthers, ProjectTeams, TaskStatuses, TaskTypes,  Lists, Stamps, RootCauseGroups, RootCauses, TaskAttachments, TaskAttachmentImages, TaskAttachmentOthers, TaskComments, Tasks, TaskLocations, RFIStatuses, RFI, RFIComments, RFITimeLine with mapstruct
+paginate Languages, Logos, AccountStatuses, Accounts, UserGroups, Users, AddressTypes, Addresses, States, Country, UserRoles, UserPermissions, MenuItems, Projects, SheetTags, Sheets, SheetHistory, SheetComments, Documents, Attachments, AttachmentImages, AttachmentOthers, ProjectTeams, TaskStatuses, TaskTypes,  Lists, Stamps, RootCauseGroups, RootCauses, TaskAttachments, TaskAttachmentImages, TaskAttachmentOthers, TaskComments, Tasks, TaskLocations, RFIStatuses, RFI, RFIComments, RFITimeLine with pagination
+service Languages, Logos, AccountStatuses, Accounts, UserGroups, Users, AddressTypes, Addresses, States, Country, UserRoles, UserPermissions, MenuItems, Projects, SheetTags, Sheets, SheetHistory, SheetComments, Documents, Attachments, AttachmentImages, AttachmentOthers, ProjectTeams, TaskStatuses, TaskTypes,  Lists, Stamps, RootCauseGroups, RootCauses, TaskAttachments, TaskAttachmentImages, TaskAttachmentOthers, TaskComments, Tasks, TaskLocations, RFIStatuses, RFI, RFIComments, RFITimeLine with serviceClass
+search Languages, Logos, AccountStatuses, Accounts, UserGroups, Users, AddressTypes, Addresses, States, Country, UserRoles, UserPermissions, MenuItems, Projects, SheetTags, Sheets, SheetHistory, SheetComments, Documents, Attachments, AttachmentImages, AttachmentOthers, ProjectTeams, TaskStatuses, TaskTypes,  Lists, Stamps, RootCauseGroups, RootCauses, TaskAttachments, TaskAttachmentImages, TaskAttachmentOthers, TaskComments, Tasks, TaskLocations, RFIStatuses, RFI, RFIComments, RFITimeLine with elasticsearch
+microservice Languages, Logos, AccountStatuses, Accounts, UserGroups, Users, AddressTypes, Addresses, States, Country, UserRoles, UserPermissions, MenuItems, Projects, SheetTags, Sheets, SheetHistory, SheetComments, Documents, Attachments, AttachmentImages, AttachmentOthers, ProjectTeams, TaskStatuses, TaskTypes,  Lists, Stamps, RootCauseGroups, RootCauses, TaskAttachments, TaskAttachmentImages, TaskAttachmentOthers, TaskComments, Tasks, TaskLocations, RFIStatuses, RFI, RFIComments, RFITimeLine with CMSProBaseService
+clientRootFolder Languages, Logos, AccountStatuses, Accounts, UserGroups, Users, AddressTypes, Addresses, States, Country, UserRoles, UserPermissions, MenuItems, Projects, SheetTags, Sheets, SheetHistory, SheetComments, Documents, Attachments, AttachmentImages, AttachmentOthers, ProjectTeams, TaskStatuses, TaskTypes,  Lists, Stamps, RootCauseGroups, RootCauses, TaskAttachments, TaskAttachmentImages, TaskAttachmentOthers, TaskComments, Tasks, TaskLocations, RFIStatuses, RFI, RFIComments, RFITimeLine with CMSProBaseService

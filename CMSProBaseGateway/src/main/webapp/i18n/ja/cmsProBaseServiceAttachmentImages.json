@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachmentImages": {
+      "home": {
+        "title": "AttachmentImages",
+        "createLabel": "Attachment Images を追加",
+        "createOrEditLabel": "Attachment Imagesを追加または編集",
+        "search": "Search for Attachment Images",
+        "notFound": "No Attachment Images found"
+      },
+      "delete": {
+        "question": "Attachment Images {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Attachment Images"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "attachment": "Attachment",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachmentImages": {
+      "created": "A new Attachment Images is created with identifier {{ param }}",
+      "updated": "A Attachment Images is updated with identifier {{ param }}",
+      "deleted": "A Attachment Images is deleted with identifier {{ param }}"
+    }
+  }
+}

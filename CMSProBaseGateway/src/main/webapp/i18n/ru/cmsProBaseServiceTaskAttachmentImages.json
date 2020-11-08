@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachmentImages": {
+      "home": {
+        "title": "Task Attachment Images",
+        "createLabel": "Создать новый Task Attachment Images",
+        "createOrEditLabel": "Создать или отредактировать Task Attachment Images",
+        "search": "Найти Task Attachment Images",
+        "notFound": "No Task Attachment Images found"
+      },
+      "delete": {
+        "question": "Вы уверены что хотите удалить Task Attachment Images {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Attachment Images"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachmentImages": {
+      "created": "Новый Task Attachment Images создан с идентификатором {{ param }}",
+      "updated": "Task Attachment Images обновлен с идентификатором {{ param }}",
+      "deleted": "Task Attachment Images удален с идентификатором {{ param }}"
+    }
+  }
+}

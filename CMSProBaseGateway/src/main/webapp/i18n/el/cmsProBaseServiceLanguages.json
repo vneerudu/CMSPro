@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLanguages": {
+      "home": {
+        "title": "Languages",
+        "createLabel": "Δημιουργήστε ένα νέο Languages",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Languages",
+        "search": "Αναζήτηση για Languages",
+        "notFound": "No Languages found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Languages {{ id }};"
+      },
+      "detail": {
+        "title": "Languages"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLanguages": {
+      "created": "Ένα νέο Languages έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Languages έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Languages έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

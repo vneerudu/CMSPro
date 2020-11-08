@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRootCauseGroups": {
+      "home": {
+        "title": "Root Cause Groups",
+        "createLabel": "Thêm mới một Root Cause Groups",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Root Cause Groups",
+        "search": "Tìm Root Cause Groups",
+        "notFound": "No Root Cause Groups found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Root Cause Groups {{ id }}?"
+      },
+      "detail": {
+        "title": "Root Cause Groups"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "rootCause": "Root Cause"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRootCauseGroups": {
+      "created": "Một Root Cause Groups mới được tạo với định danh {{ param }}",
+      "updated": "Một Root Cause Groups cập nhật với định danh {{ param }}",
+      "deleted": "Một Root Cause Groups đã xóa với định danh {{ param }}"
+    }
+  }
+}

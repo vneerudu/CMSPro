@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceMenuItems": {
+      "home": {
+        "title": "MenuItems",
+        "createLabel": "नया Menu Items बनाएँ",
+        "createOrEditLabel": "Menu Items बनाएँ या संपादित करें",
+        "search": "Menu Items खोजें",
+        "notFound": "No Menu Items found"
+      },
+      "delete": {
+        "question": "Menu Items [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Menu Items"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceMenuItems": {
+      "created": "एक नया Menu Items [identifier: {{ param }}] तैयार है",
+      "updated": "एक Menu Items [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Menu Items [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

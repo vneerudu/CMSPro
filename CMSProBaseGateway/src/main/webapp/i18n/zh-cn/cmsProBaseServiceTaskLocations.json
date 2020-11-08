@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskLocations": {
+      "home": {
+        "title": "Task Locations",
+        "createLabel": "创建新 Task Locations",
+        "createOrEditLabel": "创建或编辑 Task Locations",
+        "search": "查找 Task Locations",
+        "notFound": "No Task Locations found"
+      },
+      "delete": {
+        "question": "你确定要删除 Task Locations {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Task Locations"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskLocations": {
+      "created": "Task Locations {{ param }} 创建成功",
+      "updated": "Task Locations {{ param }} 更新成功",
+      "deleted": "Task Locations {{ param }} 删除成功"
+    }
+  }
+}

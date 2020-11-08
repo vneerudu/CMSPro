@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachmentImages": {
+      "home": {
+        "title": "Attachment Images",
+        "createLabel": "创建新 Attachment Images",
+        "createOrEditLabel": "创建或编辑 Attachment Images",
+        "search": "查找 Attachment Images",
+        "notFound": "No Attachment Images found"
+      },
+      "delete": {
+        "question": "你确定要删除 Attachment Images {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Attachment Images"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "attachment": "Attachment",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachmentImages": {
+      "created": "Attachment Images {{ param }} 创建成功",
+      "updated": "Attachment Images {{ param }} 更新成功",
+      "deleted": "Attachment Images {{ param }} 删除成功"
+    }
+  }
+}

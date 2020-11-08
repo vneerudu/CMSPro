@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetTags": {
+      "home": {
+        "title": "SheetTags",
+        "createLabel": "Sheet Tags を追加",
+        "createOrEditLabel": "Sheet Tagsを追加または編集",
+        "search": "Search for Sheet Tags",
+        "notFound": "No Sheet Tags found"
+      },
+      "delete": {
+        "question": "Sheet Tags {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Sheet Tags"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "sheets": "Sheets"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetTags": {
+      "created": "A new Sheet Tags is created with identifier {{ param }}",
+      "updated": "A Sheet Tags is updated with identifier {{ param }}",
+      "deleted": "A Sheet Tags is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "home": {
+        "title": "SheetHistories",
+        "createLabel": "Sheet History を追加",
+        "createOrEditLabel": "Sheet Historyを追加または編集",
+        "search": "Search for Sheet History",
+        "notFound": "No Sheet Histories found"
+      },
+      "delete": {
+        "question": "Sheet History {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Sheet History"
+      },
+      "number": "Number",
+      "version": "Version",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "created": "A new Sheet History is created with identifier {{ param }}",
+      "updated": "A Sheet History is updated with identifier {{ param }}",
+      "deleted": "A Sheet History is deleted with identifier {{ param }}"
+    }
+  }
+}

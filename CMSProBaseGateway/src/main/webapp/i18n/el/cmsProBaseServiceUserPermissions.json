@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserPermissions": {
+      "home": {
+        "title": "User Permissions",
+        "createLabel": "Δημιουργήστε ένα νέο User Permissions",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα User Permissions",
+        "search": "Αναζήτηση για User Permissions",
+        "notFound": "No User Permissions found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο User Permissions {{ id }};"
+      },
+      "detail": {
+        "title": "User Permissions"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "userRoles": "User Roles"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserPermissions": {
+      "created": "Ένα νέο User Permissions έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα User Permissions έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα User Permissions έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

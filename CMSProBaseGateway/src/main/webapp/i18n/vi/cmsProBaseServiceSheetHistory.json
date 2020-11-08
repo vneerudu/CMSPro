@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "home": {
+        "title": "Sheet Histories",
+        "createLabel": "Thêm mới một Sheet History",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Sheet History",
+        "search": "Tìm Sheet History",
+        "notFound": "No Sheet Histories found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Sheet History {{ id }}?"
+      },
+      "detail": {
+        "title": "Sheet History"
+      },
+      "number": "Number",
+      "version": "Version",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetHistory": {
+      "created": "Một Sheet History mới được tạo với định danh {{ param }}",
+      "updated": "Một Sheet History cập nhật với định danh {{ param }}",
+      "deleted": "Một Sheet History đã xóa với định danh {{ param }}"
+    }
+  }
+}

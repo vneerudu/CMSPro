@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLanguages": {
+      "home": {
+        "title": "Languages",
+        "createLabel": "नया Languages बनाएँ",
+        "createOrEditLabel": "Languages बनाएँ या संपादित करें",
+        "search": "Languages खोजें",
+        "notFound": "No Languages found"
+      },
+      "delete": {
+        "question": "Languages [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Languages"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLanguages": {
+      "created": "एक नया Languages [identifier: {{ param }}] तैयार है",
+      "updated": "एक Languages [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Languages [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceStates": {
+      "home": {
+        "title": "States",
+        "createLabel": "Thêm mới một States",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật States",
+        "search": "Tìm States",
+        "notFound": "No States found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa States {{ id }}?"
+      },
+      "detail": {
+        "title": "States"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceStates": {
+      "created": "Một States mới được tạo với định danh {{ param }}",
+      "updated": "Một States cập nhật với định danh {{ param }}",
+      "deleted": "Một States đã xóa với định danh {{ param }}"
+    }
+  }
+}

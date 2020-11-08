@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskTypes": {
+      "home": {
+        "title": "Task Types",
+        "createLabel": "కొత్త Task Types  సృష్టించండి",
+        "createOrEditLabel": "Task Types సృష్టించండి లేదా సవరించండి",
+        "search": "Task Types కొరకు శోధించండి",
+        "notFound": "No Task Types found"
+      },
+      "delete": {
+        "question": "మీరు Task Types {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Task Types"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskTypes": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Task Types సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Task Types సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Task Types తొలగించబడినది"
+    }
+  }
+}

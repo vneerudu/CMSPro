@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRootCauseGroups": {
+      "home": {
+        "title": "Root Cause Groups",
+        "createLabel": "కొత్త Root Cause Groups  సృష్టించండి",
+        "createOrEditLabel": "Root Cause Groups సృష్టించండి లేదా సవరించండి",
+        "search": "Root Cause Groups కొరకు శోధించండి",
+        "notFound": "No Root Cause Groups found"
+      },
+      "delete": {
+        "question": "మీరు Root Cause Groups {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Root Cause Groups"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "rootCause": "Root Cause"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRootCauseGroups": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Root Cause Groups సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Root Cause Groups సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Root Cause Groups తొలగించబడినది"
+    }
+  }
+}

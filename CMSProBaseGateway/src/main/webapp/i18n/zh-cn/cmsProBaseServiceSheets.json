@@ -1,0 +1,38 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheets": {
+      "home": {
+        "title": "Sheets",
+        "createLabel": "创建新 Sheets",
+        "createOrEditLabel": "创建或编辑 Sheets",
+        "search": "查找 Sheets",
+        "notFound": "No Sheets found"
+      },
+      "delete": {
+        "question": "你确定要删除 Sheets {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Sheets"
+      },
+      "number": "Number",
+      "title": "Title",
+      "version": "Version",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "documents": "Documents",
+      "tags": "Tags",
+      "history": "History",
+      "attachment": "Attachment",
+      "comment": "Comment",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheets": {
+      "created": "Sheets {{ param }} 创建成功",
+      "updated": "Sheets {{ param }} 更新成功",
+      "deleted": "Sheets {{ param }} 删除成功"
+    }
+  }
+}

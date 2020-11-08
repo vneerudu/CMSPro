@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLogos": {
+      "home": {
+        "title": "Logos",
+        "createLabel": "नया Logos बनाएँ",
+        "createOrEditLabel": "Logos बनाएँ या संपादित करें",
+        "search": "Logos खोजें",
+        "notFound": "No Logos found"
+      },
+      "delete": {
+        "question": "Logos [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Logos"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLogos": {
+      "created": "एक नया Logos [identifier: {{ param }}] तैयार है",
+      "updated": "एक Logos [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Logos [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

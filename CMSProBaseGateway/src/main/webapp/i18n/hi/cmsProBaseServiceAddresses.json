@@ -1,0 +1,38 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAddresses": {
+      "home": {
+        "title": "Addresses",
+        "createLabel": "नया Addresses बनाएँ",
+        "createOrEditLabel": "Addresses बनाएँ या संपादित करें",
+        "search": "Addresses खोजें",
+        "notFound": "No Addresses found"
+      },
+      "delete": {
+        "question": "Addresses [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Addresses"
+      },
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "zipCode": "Zip Code",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "addressType": "Address Type",
+      "state": "State",
+      "country": "Country",
+      "user": "User",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAddresses": {
+      "created": "एक नया Addresses [identifier: {{ param }}] तैयार है",
+      "updated": "एक Addresses [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Addresses [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

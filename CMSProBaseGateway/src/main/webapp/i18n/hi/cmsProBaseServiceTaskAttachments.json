@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachments": {
+      "home": {
+        "title": "TaskAttachments",
+        "createLabel": "नया Task Attachments बनाएँ",
+        "createOrEditLabel": "Task Attachments बनाएँ या संपादित करें",
+        "search": "Task Attachments खोजें",
+        "notFound": "No Task Attachments found"
+      },
+      "delete": {
+        "question": "Task Attachments [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Task Attachments"
+      },
+      "folder": "Folder",
+      "fileName": "File Name",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachments": {
+      "created": "एक नया Task Attachments [identifier: {{ param }}] तैयार है",
+      "updated": "एक Task Attachments [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Task Attachments [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

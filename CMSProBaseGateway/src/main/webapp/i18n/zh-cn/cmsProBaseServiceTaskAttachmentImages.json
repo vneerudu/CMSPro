@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachmentImages": {
+      "home": {
+        "title": "Task Attachment Images",
+        "createLabel": "创建新 Task Attachment Images",
+        "createOrEditLabel": "创建或编辑 Task Attachment Images",
+        "search": "查找 Task Attachment Images",
+        "notFound": "No Task Attachment Images found"
+      },
+      "delete": {
+        "question": "你确定要删除 Task Attachment Images {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Task Attachment Images"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachmentImages": {
+      "created": "Task Attachment Images {{ param }} 创建成功",
+      "updated": "Task Attachment Images {{ param }} 更新成功",
+      "deleted": "Task Attachment Images {{ param }} 删除成功"
+    }
+  }
+}

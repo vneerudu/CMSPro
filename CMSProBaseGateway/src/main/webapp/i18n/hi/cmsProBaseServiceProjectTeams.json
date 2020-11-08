@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceProjectTeams": {
+      "home": {
+        "title": "ProjectTeams",
+        "createLabel": "नया Project Teams बनाएँ",
+        "createOrEditLabel": "Project Teams बनाएँ या संपादित करें",
+        "search": "Project Teams खोजें",
+        "notFound": "No Project Teams found"
+      },
+      "delete": {
+        "question": "Project Teams [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Project Teams"
+      },
+      "name": "Name",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "users": "Users",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceProjectTeams": {
+      "created": "एक नया Project Teams [identifier: {{ param }}] तैयार है",
+      "updated": "एक Project Teams [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Project Teams [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

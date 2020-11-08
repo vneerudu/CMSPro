@@ -1,0 +1,41 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceProjects": {
+      "home": {
+        "title": "Projects",
+        "createLabel": "Thêm mới một Projects",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Projects",
+        "search": "Tìm Projects",
+        "notFound": "No Projects found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Projects {{ id }}?"
+      },
+      "detail": {
+        "title": "Projects"
+      },
+      "code": "Code",
+      "name": "Name",
+      "startDate": "Start Date",
+      "finishDate": "Finish Date",
+      "lastUpdate": "Last Update",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "address": "Address",
+      "sheets": "Sheets",
+      "teams": "Teams",
+      "tasks": "Tasks",
+      "stamps": "Stamps",
+      "list": "List",
+      "rfi": "Rfi",
+      "account": "Account"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceProjects": {
+      "created": "Một Projects mới được tạo với định danh {{ param }}",
+      "updated": "Một Projects cập nhật với định danh {{ param }}",
+      "deleted": "Một Projects đã xóa với định danh {{ param }}"
+    }
+  }
+}

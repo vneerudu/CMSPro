@@ -1,0 +1,41 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFi": {
+      "home": {
+        "title": "RFIS",
+        "createLabel": "Crear nuevo RFI",
+        "createOrEditLabel": "Crear o editar RFI",
+        "search": "Buscar RFI",
+        "notFound": "Ningún RFIS encontrado"
+      },
+      "delete": {
+        "question": "¿Seguro que quiere eliminar RFI {{ id }}?"
+      },
+      "detail": {
+        "title": "RFI"
+      },
+      "title": "Title",
+      "question": "Question",
+      "answer": "Answer",
+      "sentDate": "Sent Date",
+      "dueDate": "Due Date",
+      "locked": "Locked",
+      "lockedBy": "Locked By",
+      "status": "Status",
+      "taskImages": "Task Images",
+      "taskAttachment": "Task Attachment",
+      "sheetAttachment": "Sheet Attachment",
+      "sheetImages": "Sheet Images",
+      "rfiComments": "Rfi Comments",
+      "timeLine": "Time Line",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFi": {
+      "created": "Un nuevo RFI ha sido creado con el identificador {{ param }}",
+      "updated": "Un RFI ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un RFI ha sido eliminado con el identificador {{ param }}"
+    }
+  }
+}

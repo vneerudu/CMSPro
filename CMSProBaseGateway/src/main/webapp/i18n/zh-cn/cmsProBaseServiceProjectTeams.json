@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceProjectTeams": {
+      "home": {
+        "title": "Project Teams",
+        "createLabel": "创建新 Project Teams",
+        "createOrEditLabel": "创建或编辑 Project Teams",
+        "search": "查找 Project Teams",
+        "notFound": "No Project Teams found"
+      },
+      "delete": {
+        "question": "你确定要删除 Project Teams {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Project Teams"
+      },
+      "name": "Name",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "users": "Users",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceProjectTeams": {
+      "created": "Project Teams {{ param }} 创建成功",
+      "updated": "Project Teams {{ param }} 更新成功",
+      "deleted": "Project Teams {{ param }} 删除成功"
+    }
+  }
+}

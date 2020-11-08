@@ -1,0 +1,41 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUsers": {
+      "home": {
+        "title": "Users",
+        "createLabel": "Thêm mới một Users",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Users",
+        "search": "Tìm Users",
+        "notFound": "No Users found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Users {{ id }}?"
+      },
+      "detail": {
+        "title": "Users"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "fullName": "Full Name",
+      "prefix": "Prefix",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "title": "Title",
+      "company": "Company",
+      "trackLocation": "Track Location",
+      "userGroup": "User Group",
+      "address": "Address",
+      "account": "Account",
+      "team": "Team",
+      "taskAssigned": "Task Assigned",
+      "taskToMonitor": "Task To Monitor"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUsers": {
+      "created": "Một Users mới được tạo với định danh {{ param }}",
+      "updated": "Một Users cập nhật với định danh {{ param }}",
+      "deleted": "Một Users đã xóa với định danh {{ param }}"
+    }
+  }
+}

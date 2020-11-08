@@ -1,0 +1,41 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFi": {
+      "home": {
+        "title": "RFIS",
+        "createLabel": "కొత్త RFI  సృష్టించండి",
+        "createOrEditLabel": "RFI సృష్టించండి లేదా సవరించండి",
+        "search": "RFI కొరకు శోధించండి",
+        "notFound": "No RFIS found"
+      },
+      "delete": {
+        "question": "మీరు RFI {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "RFI"
+      },
+      "title": "Title",
+      "question": "Question",
+      "answer": "Answer",
+      "sentDate": "Sent Date",
+      "dueDate": "Due Date",
+      "locked": "Locked",
+      "lockedBy": "Locked By",
+      "status": "Status",
+      "taskImages": "Task Images",
+      "taskAttachment": "Task Attachment",
+      "sheetAttachment": "Sheet Attachment",
+      "sheetImages": "Sheet Images",
+      "rfiComments": "Rfi Comments",
+      "timeLine": "Time Line",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFi": {
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త RFI సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త RFI సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త RFI తొలగించబడినది"
+    }
+  }
+}

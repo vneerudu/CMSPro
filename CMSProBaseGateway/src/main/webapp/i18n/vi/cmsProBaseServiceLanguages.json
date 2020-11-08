@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLanguages": {
+      "home": {
+        "title": "Languages",
+        "createLabel": "Thêm mới một Languages",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Languages",
+        "search": "Tìm Languages",
+        "notFound": "No Languages found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Languages {{ id }}?"
+      },
+      "detail": {
+        "title": "Languages"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLanguages": {
+      "created": "Một Languages mới được tạo với định danh {{ param }}",
+      "updated": "Một Languages cập nhật với định danh {{ param }}",
+      "deleted": "Một Languages đã xóa với định danh {{ param }}"
+    }
+  }
+}

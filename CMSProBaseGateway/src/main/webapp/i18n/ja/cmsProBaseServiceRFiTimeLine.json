@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceRFiTimeLine": {
+      "home": {
+        "title": "RFITimeLines",
+        "createLabel": "RFI Time Line を追加",
+        "createOrEditLabel": "RFI Time Lineを追加または編集",
+        "search": "Search for RFI Time Line",
+        "notFound": "No RFI Time Lines found"
+      },
+      "delete": {
+        "question": "RFI Time Line {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "RFI Time Line"
+      },
+      "createdBy": "Created By",
+      "message": "Message",
+      "creationDate": "Creation Date",
+      "rfi": "Rfi"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceRFiTimeLine": {
+      "created": "A new RFI Time Line is created with identifier {{ param }}",
+      "updated": "A RFI Time Line is updated with identifier {{ param }}",
+      "deleted": "A RFI Time Line is deleted with identifier {{ param }}"
+    }
+  }
+}

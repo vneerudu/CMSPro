@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceDocuments": {
+      "home": {
+        "title": "Documents",
+        "createLabel": "Δημιουργήστε ένα νέο Documents",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Documents",
+        "search": "Αναζήτηση για Documents",
+        "notFound": "No Documents found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Documents {{ id }};"
+      },
+      "detail": {
+        "title": "Documents"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "sheets": "Sheets"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceDocuments": {
+      "created": "Ένα νέο Documents έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Documents έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Documents έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

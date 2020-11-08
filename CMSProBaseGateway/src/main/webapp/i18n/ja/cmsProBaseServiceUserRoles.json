@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserRoles": {
+      "home": {
+        "title": "UserRoles",
+        "createLabel": "User Roles を追加",
+        "createOrEditLabel": "User Rolesを追加または編集",
+        "search": "Search for User Roles",
+        "notFound": "No User Roles found"
+      },
+      "delete": {
+        "question": "User Roles {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "User Roles"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "permissions": "Permissions",
+      "menuItems": "Menu Items",
+      "userGroup": "User Group"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserRoles": {
+      "created": "A new User Roles is created with identifier {{ param }}",
+      "updated": "A User Roles is updated with identifier {{ param }}",
+      "deleted": "A User Roles is deleted with identifier {{ param }}"
+    }
+  }
+}

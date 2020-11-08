@@ -1,0 +1,41 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUsers": {
+      "home": {
+        "title": "Users",
+        "createLabel": "नया Users बनाएँ",
+        "createOrEditLabel": "Users बनाएँ या संपादित करें",
+        "search": "Users खोजें",
+        "notFound": "No Users found"
+      },
+      "delete": {
+        "question": "Users [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Users"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "fullName": "Full Name",
+      "prefix": "Prefix",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "title": "Title",
+      "company": "Company",
+      "trackLocation": "Track Location",
+      "userGroup": "User Group",
+      "address": "Address",
+      "account": "Account",
+      "team": "Team",
+      "taskAssigned": "Task Assigned",
+      "taskToMonitor": "Task To Monitor"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUsers": {
+      "created": "एक नया Users [identifier: {{ param }}] तैयार है",
+      "updated": "एक Users [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Users [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

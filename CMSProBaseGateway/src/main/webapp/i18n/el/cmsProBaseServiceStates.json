@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceStates": {
+      "home": {
+        "title": "States",
+        "createLabel": "Δημιουργήστε ένα νέο States",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα States",
+        "search": "Αναζήτηση για States",
+        "notFound": "No States found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο States {{ id }};"
+      },
+      "detail": {
+        "title": "States"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceStates": {
+      "created": "Ένα νέο States έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα States έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα States έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

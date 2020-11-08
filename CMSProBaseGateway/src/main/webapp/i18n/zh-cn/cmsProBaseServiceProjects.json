@@ -1,0 +1,41 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceProjects": {
+      "home": {
+        "title": "Projects",
+        "createLabel": "创建新 Projects",
+        "createOrEditLabel": "创建或编辑 Projects",
+        "search": "查找 Projects",
+        "notFound": "No Projects found"
+      },
+      "delete": {
+        "question": "你确定要删除 Projects {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Projects"
+      },
+      "code": "Code",
+      "name": "Name",
+      "startDate": "Start Date",
+      "finishDate": "Finish Date",
+      "lastUpdate": "Last Update",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "address": "Address",
+      "sheets": "Sheets",
+      "teams": "Teams",
+      "tasks": "Tasks",
+      "stamps": "Stamps",
+      "list": "List",
+      "rfi": "Rfi",
+      "account": "Account"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceProjects": {
+      "created": "Projects {{ param }} 创建成功",
+      "updated": "Projects {{ param }} 更新成功",
+      "deleted": "Projects {{ param }} 删除成功"
+    }
+  }
+}

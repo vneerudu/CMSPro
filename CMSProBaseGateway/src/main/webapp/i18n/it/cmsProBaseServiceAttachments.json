@@ -1,0 +1,33 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAttachments": {
+      "home": {
+        "title": "Attachments",
+        "createLabel": "Genera un nuovo Attachments",
+        "createOrEditLabel": "Genera o modifica un Attachments",
+        "search": "Cerca Attachments",
+        "notFound": "No Attachments found"
+      },
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Attachments {{ id }}?"
+      },
+      "detail": {
+        "title": "Attachments"
+      },
+      "folder": "Folder",
+      "fileName": "File Name",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "image": "Image",
+      "pdfattachment": "Pdfattachment",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAttachments": {
+      "created": "&Egrave; stato generato un nuovo Attachments con identificatore { param }}",
+      "updated": "&Egrave; stato aggiornato Attachments identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Attachments con identificatore {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAddresses": {
+      "home": {
+        "title": "Addresses",
+        "createLabel": "Δημιουργήστε ένα νέο Addresses",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Addresses",
+        "search": "Αναζήτηση για Addresses",
+        "notFound": "No Addresses found"
+      },
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Addresses {{ id }};"
+      },
+      "detail": {
+        "title": "Addresses"
+      },
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "zipCode": "Zip Code",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "addressType": "Address Type",
+      "state": "State",
+      "country": "Country",
+      "user": "User",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAddresses": {
+      "created": "Ένα νέο Addresses έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Addresses έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Addresses έχει διαγραφτεί με αναγνωριστικό {{ param }}"
+    }
+  }
+}

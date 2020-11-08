@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceUserGroups": {
+      "home": {
+        "title": "User Groups",
+        "createLabel": "Thêm mới một User Groups",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật User Groups",
+        "search": "Tìm User Groups",
+        "notFound": "No User Groups found"
+      },
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa User Groups {{ id }}?"
+      },
+      "detail": {
+        "title": "User Groups"
+      },
+      "code": "Code",
+      "description": "Description",
+      "userRoles": "User Roles",
+      "account": "Account",
+      "users": "Users"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceUserGroups": {
+      "created": "Một User Groups mới được tạo với định danh {{ param }}",
+      "updated": "Một User Groups cập nhật với định danh {{ param }}",
+      "deleted": "Một User Groups đã xóa với định danh {{ param }}"
+    }
+  }
+}

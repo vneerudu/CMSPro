@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceTaskAttachments": {
+      "home": {
+        "title": "Task Attachments",
+        "createLabel": "Создать новый Task Attachments",
+        "createOrEditLabel": "Создать или отредактировать Task Attachments",
+        "search": "Найти Task Attachments",
+        "notFound": "No Task Attachments found"
+      },
+      "delete": {
+        "question": "Вы уверены что хотите удалить Task Attachments {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Attachments"
+      },
+      "folder": "Folder",
+      "fileName": "File Name",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceTaskAttachments": {
+      "created": "Новый Task Attachments создан с идентификатором {{ param }}",
+      "updated": "Task Attachments обновлен с идентификатором {{ param }}",
+      "deleted": "Task Attachments удален с идентификатором {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceAddressTypes": {
+      "home": {
+        "title": "AddressTypes",
+        "createLabel": "नया Address Types बनाएँ",
+        "createOrEditLabel": "Address Types बनाएँ या संपादित करें",
+        "search": "Address Types खोजें",
+        "notFound": "No Address Types found"
+      },
+      "delete": {
+        "question": "Address Types [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Address Types"
+      },
+      "code": "Code",
+      "description": "Description"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceAddressTypes": {
+      "created": "एक नया Address Types [identifier: {{ param }}] तैयार है",
+      "updated": "एक Address Types [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Address Types [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}

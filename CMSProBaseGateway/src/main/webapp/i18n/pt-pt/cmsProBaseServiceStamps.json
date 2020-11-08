@@ -1,0 +1,32 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceStamps": {
+      "home": {
+        "title": "Stamps",
+        "createLabel": "Criar novo(a) Stamps",
+        "createOrEditLabel": "Criar ou editar Stamps",
+        "search": "Procurar por Stamps",
+        "notFound": "Nenhum Stamps encontrado"
+      },
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Stamps {{ id }}?"
+      },
+      "detail": {
+        "title": "Stamps"
+      },
+      "stamp": "Stamp",
+      "title": "Title",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceStamps": {
+      "created": "Um novo Stamps foi criado com o identificador {{ param }}",
+      "updated": "Stamps com identificador {{ param }} foi actualizado",
+      "deleted": "Stamps com identificador {{ param }} foi eliminado"
+    }
+  }
+}

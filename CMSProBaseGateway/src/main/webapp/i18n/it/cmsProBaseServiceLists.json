@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLists": {
+      "home": {
+        "title": "Lists",
+        "createLabel": "Genera un nuovo Lists",
+        "createOrEditLabel": "Genera o modifica un Lists",
+        "search": "Cerca Lists",
+        "notFound": "No Lists found"
+      },
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Lists {{ id }}?"
+      },
+      "detail": {
+        "title": "Lists"
+      },
+      "code": "Code",
+      "description": "Description",
+      "isActive": "Is Active",
+      "task": "Task",
+      "project": "Project"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLists": {
+      "created": "&Egrave; stato generato un nuovo Lists con identificatore { param }}",
+      "updated": "&Egrave; stato aggiornato Lists identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Lists con identificatore {{ param }}"
+    }
+  }
+}

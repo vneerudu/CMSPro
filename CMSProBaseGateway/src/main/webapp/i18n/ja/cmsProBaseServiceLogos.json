@@ -1,0 +1,31 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceLogos": {
+      "home": {
+        "title": "Logos",
+        "createLabel": "Logos を追加",
+        "createOrEditLabel": "Logosを追加または編集",
+        "search": "Search for Logos",
+        "notFound": "No Logos found"
+      },
+      "delete": {
+        "question": "Logos {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Logos"
+      },
+      "fileName": "File Name",
+      "fileType": "File Type",
+      "content": "Content",
+      "createdBy": "Created By",
+      "creationDate": "Creation Date"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceLogos": {
+      "created": "A new Logos is created with identifier {{ param }}",
+      "updated": "A Logos is updated with identifier {{ param }}",
+      "deleted": "A Logos is deleted with identifier {{ param }}"
+    }
+  }
+}

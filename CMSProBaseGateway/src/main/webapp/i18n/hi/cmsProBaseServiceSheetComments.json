@@ -1,0 +1,30 @@
+{
+  "cmsProBaseGatewayApp": {
+    "cmsProBaseServiceSheetComments": {
+      "home": {
+        "title": "SheetComments",
+        "createLabel": "नया Sheet Comments बनाएँ",
+        "createOrEditLabel": "Sheet Comments बनाएँ या संपादित करें",
+        "search": "Sheet Comments खोजें",
+        "notFound": "No Sheet Comments found"
+      },
+      "delete": {
+        "question": "Sheet Comments [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Sheet Comments"
+      },
+      "createdBy": "Created By",
+      "comment": "Comment",
+      "creationDate": "Creation Date",
+      "sheet": "Sheet"
+    }
+  },
+  "cmsProBaseServiceApp": {
+    "cmsProBaseServiceSheetComments": {
+      "created": "एक नया Sheet Comments [identifier: {{ param }}] तैयार है",
+      "updated": "एक Sheet Comments [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Sheet Comments [identifier: {{ param }}] हटा दिया है"
+    }
+  }
+}
