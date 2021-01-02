@@ -23,7 +23,7 @@
     "generator-jhipster-social-login-api": "0.0.1",
     "generator-jhipster-blog": "0.0.2",
     "generator-jhipster-file2url": "0.0.0",
-    "generator-jhipster": "6.1.2"
+    "generator-jhipster": "6.3.1"
   },
   "engines": {
     "node": ">=8.9.0"
